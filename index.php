@@ -23,8 +23,8 @@
     </div>
 
     <div class="right">
-      <a href="#" class="button">How We Help</a>
-      <a href="#">+ Take Action</a>
+      <a href="safe-water.php" class="button">How We Help</a>
+      <a href="get-involved.php">+ Take Action</a>
     </div>
   </div>
 
@@ -46,8 +46,8 @@
     </div>
 
     <div class="left">
-      <a href="#">+ Take Action</a>
-      <a href="#" class="button">How We Help</a>
+      <a href="get-involved.php">+ Take Action</a>
+      <a href="livestock.php" class="button">How We Help</a>
     </div>
   </div>
 
@@ -55,6 +55,40 @@
   <img src="images/home-livestock1.jpg" alt="" class="image1">
 
   <div class="image2" style="background-image: url(images/home-livestock2.jpg);"></div>
+</div>
+
+<div id="impact">
+  <a href="get-involved.php" class="button">Make an Impact</a>
+</div>
+
+<div id="our-progress" class="cf">
+  <div class="left">
+    <img src="images/for-people-for-good.png" alt="">
+  </div>
+
+  <div class="right">
+    <img src="images/icon-hands.png" alt="" class="icon">
+
+    <div>Our Progress</div>
+  </div>
+</div>
+
+<div id="blog">
+  <div class="blog-image" style="background-image: url(images/blog-2016-11-01.jpg);"></div>
+
+  <div class="site-width">
+    <div class="blog-text">
+      <a href="blog" class="blog">VIEW ALL</a>
+
+      <div class="date">November 1, 2016 <span class="sep">&bull;</span> Micro-Enterprise</div>
+
+      <div class="title">Clean water for Aguacate</div>
+
+      Every Day Hope along with the generous donations from two organizations, were able to put a well in the community of Aguacate. Not all of the world's population has access to safe domestic water.<br>
+
+      <a href="#" class="button">READ POST</a>
+    </div>
+  </div>
 </div>
 
 <?php include "footer.php"; ?>

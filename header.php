@@ -26,7 +26,7 @@
       });
     </script>
   </head>
-  <body>
+  <body<?php if (isset($PageClass)) echo " class=\"" . $PageClass . "\""; ?>>
     
     <link rel="stylesheet" href="inc/swipebox/swipebox.css">
     <script type="text/javascript" src="inc/swipebox/jquery.swipebox.min.js"></script>

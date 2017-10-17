@@ -341,6 +341,20 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   color: #55BA47;
 }
 
+#header-links.learnmore {
+  color: #4FC3F1;
+  letter-spacing: 0.3em;
+}
+
+#header-links.learnmore:after {
+  content: "\f04b";
+  font-family: "FontAwesome";
+  font-size: 60%;
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
 #subscribe {
   padding: 170px 0;
   background: url(../images/background-blue.jpg) center center;
@@ -729,6 +743,7 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   width: 55px;
   height: 28px;
   background: url(../images/triangle-cream.png);
+  transform: translateX(-50%);
 }
 
 #blog A.blog:link,
@@ -793,6 +808,86 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   color: #4FC3F1;
 }
 
+.about #header-text {
+  width: 60%;
+  font-size: 28px;
+  line-height: 1.8em;
+}
+
+.about #header-header { margin-bottom: 2em; }
+
+.about #post-header {
+  padding: 4em 0 3.5em;
+  background: url(../images/background-cream.jpg);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2em;
+}
+
+.about #post-header .site-width,
+#values .site-width { box-sizing: border-box; padding: 0 5.5%; }
+
+#values {
+  padding: 4em 0;
+  background: #000d35;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2em;
+}
+
+#values .left {
+  float: left;
+  width: 51%;
+}
+
+#values .left H1 {
+  margin: 0 0 1em;
+  color: #4FC3F1;
+  font-family: 'Droid Serif', serif;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 1em;
+}
+
+#values .right {
+  float: right;
+  width: 42%;
+}
+
+#values .right IMG {
+  width: 87px;
+  height: auto;
+  position: relative;
+  top: -15px;
+  margin-bottom: 4px;
+}
+
+#values .right .item {
+  margin-top: 1em;
+  color: #4FC3F1;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+#values .right .item + DIV {
+  opacity: 0;
+  transition: opacity 0.4s linear;
+  padding-left: 1.3em;
+  padding-top: 0.5em;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#values .right .item + DIV.on {
+  opacity: 1;
+}
+
+
 
 
 
@@ -829,6 +924,10 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #livestock .left { width: 47%; }
 
   #impact { min-height: 400px; }
+
+  #our-progress .right { font-size: 7vw; }
+
+  #our-progress .right .icon { width: 8vw; left: 4%; }
 }
 
 @media only screen and (max-width: 900px) {
@@ -866,7 +965,8 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #menu { padding-left: 10%; }
   #menu UL { font-size: 4.28vw; }
 
-  #header-text { width: 96%; }
+  #header-text,
+  .about #header-text { width: 96%; }
 
   #header-links .green { margin-right: 4vw; }
 
@@ -924,6 +1024,26 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #livestock .image2:after { padding-top: 55.98%; }
 
   #impact { min-height: 300px; }
+  
+  #our-progress { display: block; }
+
+  #our-progress .left { width: 100%; }
+  #our-progress .left:before { width: 80%; }
+
+  #our-progress .right {
+    width: 100%;
+    height: 300px;
+    font-size: 10.3vw;
+  }
+
+  #our-progress .right .icon { width: 12.4vw; left: 7%; }
+
+  #blog .blog-image { top: auto; bottom: 0; width: 100%; height: 400px; box-shadow: none; }
+
+  #blog .blog-text { float: none; width: 100%; margin-bottom: 400px; }
+
+  #blog .date { margin-bottom: 60px; }
+  #blog .button:link, #blog .button:visited { margin-top: 70px; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -957,7 +1077,11 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 
   #header { min-height: 600px; }
 
-  #header-text { font-size: 5vw; }
+  #header-text,
+  .about #header-text { font-size: 5vw; }
+  .about #header-text { line-height: 1.4em; }
+
+  .about #header-header { margin-bottom: 1.5em; }
   
   #header-links { margin-top: 50px; }
   #header-links .green { margin-right: 0; }
@@ -978,4 +1102,11 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #livestock .image1, #livestock .image2 { margin: 1em 0 0 2%; width: 96%; }
 
   #impact .button { font-size: 3.8vw; }
+
+  #our-progress .left:before { width: 70%; }
+
+  #our-progress .right { height: 250px; }
+
+  #blog .blog-image { height: 300px; }
+  #blog .blog-text { margin-bottom: 300px; }
 }

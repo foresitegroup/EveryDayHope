@@ -61,7 +61,7 @@
   <a href="get-involved.php" class="button">Make an Impact</a>
 </div>
 
-<div id="our-progress" class="cf">
+<div id="our-progress">
   <div class="left">
     <img src="images/for-people-for-good.png" alt="">
   </div>

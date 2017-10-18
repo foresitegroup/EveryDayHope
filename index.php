@@ -57,7 +57,7 @@
   <div class="image2" style="background-image: url(images/home-livestock2.jpg);"></div>
 </div>
 
-<div id="impact">
+<div id="home-impact">
   <a href="get-involved.php" class="button">Make an Impact</a>
 </div>
 

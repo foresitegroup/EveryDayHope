@@ -26,9 +26,9 @@
         </div>
         
         <div class="col1">
-          <a href="#">Get Involved</a>
+          <a href="get-involved.php">Get Involved</a>
           <div class="sep">/</div>
-          <a href="#">Contact Us</a>
+          <a href="contact.php">Contact Us</a>
         </div>
 
         <div class="col3">

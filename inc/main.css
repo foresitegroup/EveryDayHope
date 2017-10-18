@@ -634,14 +634,14 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   padding-top: 78.57%;
 }
 
-#impact {
+#home-impact {
   min-height: 550px;
   background: url(../images/home-impact.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
 
-#impact .button {
+#home-impact .button {
   position: absolute;
   top: 50%;
   left: 35%;
@@ -652,12 +652,10 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   padding: 1.2em 1.6em 1.2em 2em;
 }
 
-#impact .button:link, #impact .button:visited { background: #F2EBDC; color: #131946; }
-#impact .button:hover, #impact .button:active { background: #131946; color: #F2EBDC; }
+#home-impact .button:link, #home-impact .button:visited { background: #F2EBDC; color: #131946; }
+#home-impact .button:hover, #home-impact .button:active { background: #131946; color: #F2EBDC; }
 
-#our-progress {
-  display: flex;
-}
+#our-progress { display: flex; }
 
 #our-progress .left {
   width: 44.44%;
@@ -887,6 +885,180 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   opacity: 1;
 }
 
+#dr-header {
+  padding: 200px 0;
+  background: url(../images/about-dr.jpg) center center no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-family: 'Droid Serif', serif;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 1em;
+  text-align: center;
+  position: relative;
+}
+
+#dr-header:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.2);
+}
+
+#dr-header .site-width { position: relative; z-index: 2; }
+
+#dr { background: url(../images/background-cream.jpg); }
+
+#dr .site-width {
+  box-sizing: border-box;
+  padding: 120px 3% 115px;
+  line-height: 2em;
+}
+
+.about #impact { display: flex; }
+
+.about #impact .left {
+  width: 34.79%;
+  background: url(../images/about-impact1.jpg) center center no-repeat;
+  background-size: cover;
+  min-height: 550px;
+}
+
+.about #impact .right {
+  width: 65.21%;
+  background: url(../images/about-impact2.jpg) right center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.about #impact .right:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+.about #impact .right .button:link,
+.about #impact .right .button:visited {
+  position: relative;
+  z-index: 2;
+  background: #F2EBDC;
+  color: #131946;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1em;
+  padding: 1em 2.2em 1em 2.5em;
+  transform: translateX(20%);
+}
+
+.about #impact .right .button:hover,
+.about #impact .right .button:active {
+  background: #131946;
+  color: #F2EBDC;
+}
+
+#leadership-header { display: flex; }
+
+#leadership-header .right {
+  order: 2;
+  width: 44.44%;
+  text-align: left;
+  line-height: 0;
+  position: relative;
+  z-index: 2;
+}
+
+#leadership-header .right:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 78%;
+  height: 100%;
+  background: url(../images/about-leadership.jpg) center center no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+#leadership-header .left {
+  order: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 55.56%;
+  text-align: center;
+  background: #001544;
+  color: #F2ECDC;
+  font-family: 'Droid Serif', serif;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 1em;
+  position: relative;
+}
+
+#leadership { background: url(../images/background-cream.jpg); }
+
+#leadership .founder {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 100px 4.16%;
+  line-height: 2em;
+  position: relative;
+}
+
+#leadership .left:before {
+  content: "";
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  width: 55px;
+  height: 28px;
+  background: url(../images/triangle-cream.png);
+  transform: translateX(-50%);
+}
+
+#leadership .founder H2 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+#leadership .founder IMG {
+  margin: 35px 0 60px;
+  max-width: 100%;
+  height: auto;
+}
+
+#leadership .founder .intro {
+  padding-bottom: 3em;
+  position: relative;
+}
+
+#leadership .founder .intro .readmore {
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  color: #55BA47;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1em;
+  letter-spacing: 0.2em;
+  text-decoration: underline;
+}
+
+#leadership .founder .fulltext { margin-top: 1.5em; }
+
 
 
 
@@ -908,12 +1080,14 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #safewater .icon,
   #livestock .icon { width: 7.9vw; }
 
-  #impact { min-height: 500px; }
+  #home-impact { min-height: 500px; }
 }
 
 @media only screen and (max-width: 1050px) {
   #safewater .button,
   #livestock .button { padding: 1.2em 1.2em 1.2em 1.6em; }
+
+  .about #impact .right { background-position: 80% center; }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -923,7 +1097,7 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #safewater .right,
   #livestock .left { width: 47%; }
 
-  #impact { min-height: 400px; }
+  #home-impact { min-height: 400px; }
 
   #our-progress .right { font-size: 7vw; }
 
@@ -959,6 +1133,10 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 
   #safewater A:not(.button) { display: block; margin-top: 2em; }
   #livestock A:not(.button) { display: block; margin-bottom: 2em; }
+
+  .about #header-text { width: 75%; }
+
+  .about #impact .right { background-position: 75% center; }
 }
 
 @media only screen and (max-width: 700px) {
@@ -1023,7 +1201,7 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #safewater .image2:after,
   #livestock .image2:after { padding-top: 55.98%; }
 
-  #impact { min-height: 300px; }
+  #home-impact { min-height: 300px; }
   
   #our-progress { display: block; }
 
@@ -1044,6 +1222,15 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 
   #blog .date { margin-bottom: 60px; }
   #blog .button:link, #blog .button:visited { margin-top: 70px; }
+
+  #values .left,
+  #values .right { float: none; width: 100%; }
+
+  #values .right IMG { top: 0; margin: 1em 0 0; }
+  
+  .about #impact { display: block; }
+  .about #impact .left { width: 100%; min-height: 300px; }
+  .about #impact .right { width: 100%; min-height: 400px; background-position: 80% center; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1057,10 +1244,12 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #footer .col2 { width: 100%; margin-bottom: 2em; }
   #footer .col1, #footer .col3 { position: static; width: 50%; float: left; }
 
-  #impact .button {
+  #home-impact .button {
     letter-spacing: 0.3em;
     padding: 1.2em 1.2em 1.2em 1.5em;
   }
+
+  #dr-header { padding: 150px 0; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1101,7 +1290,7 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #safewater .image1, #safewater .image2,
   #livestock .image1, #livestock .image2 { margin: 1em 0 0 2%; width: 96%; }
 
-  #impact .button { font-size: 3.8vw; }
+  #home-impact .button { font-size: 3.8vw; }
 
   #our-progress .left:before { width: 70%; }
 
@@ -1109,4 +1298,9 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 
   #blog .blog-image { height: 300px; }
   #blog .blog-text { margin-bottom: 300px; }
+
+  .about #impact .right { background-position: center center;}
+
+  .about #impact .right .button:link,
+  .about #impact .right .button:visited { transform: translateX(0) translateY(-250%); }
 }

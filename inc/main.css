@@ -1059,6 +1059,279 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 
 #leadership .founder .fulltext { margin-top: 1.5em; }
 
+#about-footer {
+  background: url(../images/about-footer.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#about-footer:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.2);
+}
+
+#about-footer .site-width {
+  padding: 3em 0;
+  color: #FFFFFF;
+  font-family: 'Droid Serif', serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1em;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#about-footer .site-width .button:link,
+#about-footer .site-width .button:visited {
+  margin-top: 4em;
+  border: 6px solid #FFFFFF;
+  background: transparent;
+  padding: 0.75em 1.2em 0.6em 1.6em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1em;
+  letter-spacing: 0.4em;
+}
+
+#about-footer .site-width .button:hover,
+#about-footer .site-width .button:active {
+  border-color: #4FC3F1;
+  color: #4FC3F1;
+}
+
+.livestock #header-text {
+  width: 60%;
+  box-sizing: border-box;
+  padding-right: 7%;
+  font-size: 27px;
+  line-height: 1.8em;
+}
+
+.livestock #header-header {
+  font-size: 65px;
+  line-height: 1em;
+  text-decoration: underline;
+  margin-bottom: 0.8em;
+}
+
+.button.togiving {
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.4em !important;
+  padding: 1.2em 1.6em 1.2em 1.9em !important;
+}
+
+.button.togiving:before {
+  content: "+";
+  margin-right: 0.2em;
+}
+
+#overview { position: relative; }
+.livestock #overview { background: url(../images/background-green.jpg); color: #001648; }
+.safewater #overview { background: #000339; color: #FFFFFF; }
+
+#overview .text {
+  padding: 130px 0 160px 1%;
+  width: 49%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2em;
+}
+
+#overview .links { margin-top: 3em; }
+
+#overview .links A.swipebox-video:link,
+#overview .links A.swipebox-video:visited {
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-left: 2em;
+}
+
+#overview .links A.swipebox-video:hover,
+#overview .links A.swipebox-video:active {
+  color: #001544;
+}
+
+#overview .links A.swipebox-video .fa {
+  font-size: 130%;
+  transform: translateY(8%);
+}
+
+#overview .icon {
+  position: absolute;
+  top: 80px;
+  left: 56%;
+  width: 95px;
+  height: auto;
+}
+
+#overview .image1 {
+  position: absolute;
+  bottom: 43%;
+  right: 0;
+  z-index: 2;
+  width: 40%;
+  height: auto;
+}
+
+#overview .image2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 45%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#overview .image2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(81,177,67,0.3);
+}
+.safewater #overview .image2:before { background-color: rgba(0,13,133,0.3); }
+
+#overview .image2:after {
+  content: "";
+  display: block;
+  padding-top: 65%;
+}
+
+#for-life {
+  padding: 1em 0;
+  background: #001648;
+  color: #4FC3F1;
+  font-family: 'Droid Serif', serif;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 1em;
+  text-align: center;
+}
+
+#details { background: url(../images/background-cream.jpg); position: relative; }
+
+#details .images {
+  position: absolute;
+  width: 45.27%;
+  height: 100%;
+  box-shadow: 5px 0 20px -2px rgba(0,0,0,0.2);
+}
+
+#details .images .image1,
+#details .images .image2 {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 59%;
+}
+
+#details .images .image2 { height: 41%; }
+
+#details .text {
+  float: right;
+  width: 48.66%;
+  padding: 90px 0 115px;
+  font-size: 17px;
+  line-height: 1.8em;
+}
+
+#details .togiving {
+  margin-top: 100px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+}
+
+#giving-header { display: flex; }
+
+#giving-header .right {
+  order: 2;
+  width: 44.44%;
+  text-align: left;
+  line-height: 0;
+  position: relative;
+  z-index: 2;
+}
+
+#giving-header .right:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 78%;
+  height: 100%;
+  background: url(../images/livestock-giving.jpg) center center no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+#giving-header .left {
+  order: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 55.56%;
+  text-align: center;
+  background: url(../images/background-blue.jpg);
+  color: #001648;
+  font-family: 'Droid Serif', serif;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 1em;
+  position: relative;
+}
+
+#giving-header .left:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 55px;
+  height: 28px;
+  background: url(../images/triangle-white.png);
+  transform: translateX(-50%);
+}
+
+#giving-header .left .icon {
+  position: absolute;
+  top: 85px;
+  left: 9%;
+  width: 87px;
+  height: auto;
+}
+
+#giving-header .left DIV {
+  position: relative;
+  z-index: 2;
+}
+
+#giving {
+  padding: 100px 0;
+  background: url(../images/background-white.jpg);
+  color: #464646;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+#giving .site-width {
+  padding: 0 7%;
+  box-sizing: border-box;
+}
+
+
 
 
 
@@ -1081,6 +1354,10 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #livestock .icon { width: 7.9vw; }
 
   #home-impact { min-height: 500px; }
+
+  .livestock #header-text { padding-right: 0; }
+
+  #overview .text { padding: 100px 0 100px 1%; }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -1099,9 +1376,12 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 
   #home-impact { min-height: 400px; }
 
-  #our-progress .right { font-size: 7vw; }
+  #our-progress .right,
+  #leadership-header .left { font-size: 7vw; }
 
   #our-progress .right .icon { width: 8vw; left: 4%; }
+
+  .livestock #header-text { width: 75%; }
 }
 
 @media only screen and (max-width: 900px) {
@@ -1137,6 +1417,27 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   .about #header-text { width: 75%; }
 
   .about #impact .right { background-position: 75% center; }
+
+  .livestock #header-text { width: 85%; }
+
+  #overview .text {
+    width: 70%;
+    padding-left: 0;
+  }
+  
+  #overview .icon { top: 100px; left: auto; right: 2%; }
+  #overview .image1 { width: 30%; bottom: 30%; }
+  #overview .image2 { width: 42%; }
+}
+
+@media only screen and (max-width: 800px) {
+  #overview .links A.swipebox-video:link,
+  #overview .links A.swipebox-video:visited {
+    margin: 2em 0 0 0;
+    display: block;
+  }
+
+  #overview .image2 { width: 50%; }
 }
 
 @media only screen and (max-width: 700px) {
@@ -1144,7 +1445,8 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #menu UL { font-size: 4.28vw; }
 
   #header-text,
-  .about #header-text { width: 96%; }
+  .about #header-text,
+  .livestock #header-text { width: 96%; }
 
   #header-links .green { margin-right: 4vw; }
 
@@ -1203,12 +1505,17 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 
   #home-impact { min-height: 300px; }
   
-  #our-progress { display: block; }
+  #our-progress,
+  #leadership-header { display: block; }
 
-  #our-progress .left { width: 100%; }
-  #our-progress .left:before { width: 80%; }
+  #our-progress .left,
+  #leadership-header .right { width: 100%; }
 
-  #our-progress .right {
+  #our-progress .left:before,
+  #leadership-header .right:before { width: 80%; }
+
+  #our-progress .right,
+  #leadership-header .left {
     width: 100%;
     height: 300px;
     font-size: 10.3vw;
@@ -1231,6 +1538,46 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   .about #impact { display: block; }
   .about #impact .left { width: 100%; min-height: 300px; }
   .about #impact .right { width: 100%; min-height: 400px; background-position: 80% center; }
+
+  #leadership .founder { float: none; width: 100%; }
+  #leadership .right { padding-top: 0; }
+
+  #overview { padding-bottom: 95px; }
+
+  #overview .text { padding: 100px 0 2em; width: 100%; }
+
+  #overview .links { margin-top: 1.5em; text-align: center; }
+
+  #overview .links A.swipebox-video:link,
+  #overview .links A.swipebox-video:visited {
+    margin: 0 0 0 2em;
+    display: inline-block;
+  }
+
+  #overview .icon { top: 15px; }
+
+  #overview .image1 {
+    position: static;
+    width: 47%;
+    margin: 0 2%;
+  }
+
+  #overview .image2 {
+    position: static;
+    width: 47%;
+    display: inline-block;
+  }
+  #overview .image2:before { background-color: transparent; }
+  #overview .image2:after { padding-top: 56.52%; }
+
+  #details .images { position: static; width: 100%; height: auto; box-shadow: none; }
+
+  #details .images .image1,
+  #details .images .image2 { width: 50%; height: 300px; float: left; }
+
+  #details .text { float: none; width: 100%; padding: 80px 0; }
+
+  #details .togiving { margin-top: 50px; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1250,6 +1597,10 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   }
 
   #dr-header { padding: 150px 0; }
+
+  #about-footer .site-width { padding: 2em 0; }
+
+  .livestock #header-header { font-size: 10vw; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1267,7 +1618,8 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #header { min-height: 600px; }
 
   #header-text,
-  .about #header-text { font-size: 5vw; }
+  .about #header-text,
+  .livestock #header-text { font-size: 5vw; }
   .about #header-text { line-height: 1.4em; }
 
   .about #header-header { margin-bottom: 1.5em; }
@@ -1292,9 +1644,11 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 
   #home-impact .button { font-size: 3.8vw; }
 
-  #our-progress .left:before { width: 70%; }
+  #our-progress .left:before,
+  #leadership-header .right:before { width: 70%; }
 
-  #our-progress .right { height: 250px; }
+  #our-progress .right,
+  #leadership-header .left { height: 250px; }
 
   #blog .blog-image { height: 300px; }
   #blog .blog-text { margin-bottom: 300px; }
@@ -1303,4 +1657,15 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 
   .about #impact .right .button:link,
   .about #impact .right .button:visited { transform: translateX(0) translateY(-250%); }
+
+  #overview .links A.swipebox-video:link,
+  #overview .links A.swipebox-video:visited { margin: 2em 0 0; display: block; }
+
+  #overview .image1,
+  #overview .image2 { width: 96%; margin: 0 0 0 2%; }
+
+  #overview .image2 { margin-top: 1em; }
+
+  #details .images .image1,
+  #details .images .image2 { width: 100%; float: none; }
 }

@@ -114,11 +114,17 @@ function HeaderContent() { ?>
 
 <script type="text/javascript">
   $(document).ready(function() {
-    var highestBox = 0;
-    $(".intro").each(function(){
-      if($(this).height() > highestBox) { highestBox = $(this).height(); }
+    $(window).on('load resize', function(){
+      if (window.innerWidth > 700) {
+        var highestBox = 0;
+        $(".intro").each(function(){
+          if($(this).height() > highestBox) { highestBox = $(this).height(); }
+        });
+        $(".intro").height(highestBox);
+      } else {
+        $(".intro").height("auto");
+      }
     });
-    $(".intro").height(highestBox);
 
     $(".fulltext").hide();
 
@@ -203,6 +209,14 @@ function HeaderContent() { ?>
         In addition, Renee launched a mentoring group for women in leadership called Deborah Generation, designed to raise up local women to assume their roles with their greatest potential. In her role as administrator, Renee has championed change by designing and implementing a multitude of training workshops. Teaching nationals on a regular basis is Renee's passion in which she hopes to empower and equip them for self-sustainability.
       </div>
     </div>
+  </div>
+</div>
+
+<div id="about-footer">
+  <div class="site-width">
+    Interested in Micro-Enterprise?<br>
+
+    <a href="contact.php" class="button">Contact Us</a>
   </div>
 </div>
 

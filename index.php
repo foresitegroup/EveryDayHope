@@ -7,7 +7,7 @@
 
   <div id="header-links">
     <a href="https://vimeo.com/219036131" class="swipebox-video button green">Play Video <i class="fa fa-play" aria-hidden="true"></i></a>
-    <a href="#">+ How Can I Help?</a>
+    <a href="get-involved.php">+ How Can I Help?</a>
   </div>
 <?php } ?>
 

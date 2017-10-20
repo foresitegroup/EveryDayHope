@@ -1133,6 +1133,18 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   margin-right: 0.2em;
 }
 
+.safewater #header-links .button.togiving:link,
+.safewater #header-links .button.togiving:visited {
+  background: #4FC3F1;
+  color: #000339;
+}
+
+.safewater #header-links .button.togiving:hover,
+.safewater #header-links .button.togiving:active {
+  background: #000339;
+  color: #4FC3F1;
+}
+
 #overview { position: relative; }
 .livestock #overview { background: url(../images/background-green.jpg); color: #001648; }
 .safewater #overview { background: #000339; color: #FFFFFF; }
@@ -1146,6 +1158,18 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 }
 
 #overview .links { margin-top: 3em; }
+
+.safewater #overview .links .button.togiving:link,
+.safewater #overview .links .button.togiving:visited {
+  background: #FFFFFF;
+  color: #000339;
+}
+
+.safewater #overview .links .button.togiving:hover,
+.safewater #overview .links .button.togiving:active {
+  background: #4FC3F1;
+  color: #FFFFFF;
+}
 
 #overview .links A.swipebox-video:link,
 #overview .links A.swipebox-video:visited {
@@ -1161,6 +1185,11 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 #overview .links A.swipebox-video:hover,
 #overview .links A.swipebox-video:active {
   color: #001544;
+}
+
+.safewater #overview .links A.swipebox-video:hover,
+.safewater #overview .links A.swipebox-video:active {
+  color: #4FC3F1;
 }
 
 #overview .links A.swipebox-video .fa {
@@ -1319,7 +1348,7 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
 }
 
 #giving {
-  padding: 100px 0;
+  padding: 100px 0 150px;
   background: url(../images/background-white.jpg);
   color: #464646;
   font-size: 18px;
@@ -1330,6 +1359,105 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   padding: 0 7%;
   box-sizing: border-box;
 }
+
+#giving .donate {
+  float: left;
+  width: 39.62%;
+  margin: 80px 0 20px;
+}
+
+#giving .donate.right { float: right; }
+
+#giving .donate H3 {
+  margin: 0;
+  color: #001648;
+  font-family: 'Droid Serif', serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1em;
+}
+
+#giving .donate IMG {
+  margin: 25px 0;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 35px 0 rgba(0,0,0,0.15);
+}
+
+#giving .donate H4 {
+  margin: 0;
+  color: #001648;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1em;
+  letter-spacing: 0.4em;
+}
+
+#giving .donate .amount {
+  margin: 20px 0 40px;
+  color: #001648;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1em;
+}
+
+#giving .donate .amount SUP { font-size: 50%; }
+
+#giving .donate INPUT[type="submit"] {
+  outline: 0;
+  border: 0;
+  border-radius: 1.8em/50%;
+  padding: 1.2em 1.2em 1.2em 1.5em;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1em;
+  letter-spacing: 0.3em;
+  background: #001544;
+  color: #4FC3F1;
+  cursor: pointer;
+  box-shadow: 0 0 25px 0 rgba(0,0,0,0.25);
+}
+
+#giving .donate INPUT[type="submit"]:hover {
+  background: #4FC3F1;
+  color: #001544;
+}
+
+#giving-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 450px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+#giving-footer:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.2);
+}
+
+.livestock #giving-footer {
+  background: url(../images/livestock-footer.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.safewater #giving-footer {
+  background: url(../images/about-dr.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+#giving-footer .site-width { position: relative; z-index: 2; }
 
 
 
@@ -1358,6 +1486,8 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   .livestock #header-text { padding-right: 0; }
 
   #overview .text { padding: 100px 0 100px 1%; }
+
+  #giving .donate { width: 40.8%; }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -1365,6 +1495,8 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #livestock .button { padding: 1.2em 1.2em 1.2em 1.6em; }
 
   .about #impact .right { background-position: 80% center; }
+
+  #giving-header .left .icon { left: 3%; }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1382,6 +1514,11 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #our-progress .right .icon { width: 8vw; left: 4%; }
 
   .livestock #header-text { width: 75%; }
+
+  #giving-header .left { font-size: 5vw; }
+  #giving-header .left .icon { top: 50%; transform: translateY(-110%); width: 7vw; }
+
+  #giving .donate { width: 45%; }
 }
 
 @media only screen and (max-width: 900px) {
@@ -1438,6 +1575,8 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   }
 
   #overview .image2 { width: 50%; }
+
+  #giving .site-width { padding: 0; }
 }
 
 @media only screen and (max-width: 700px) {
@@ -1506,22 +1645,27 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #home-impact { min-height: 300px; }
   
   #our-progress,
-  #leadership-header { display: block; }
+  #leadership-header,
+  #giving-header { display: block; }
 
   #our-progress .left,
-  #leadership-header .right { width: 100%; }
+  #leadership-header .right,
+  #giving-header .right { width: 100%; }
 
   #our-progress .left:before,
-  #leadership-header .right:before { width: 80%; }
+  #leadership-header .right:before,
+  #giving-header .right:before { width: 80%; }
 
   #our-progress .right,
-  #leadership-header .left {
+  #leadership-header .left,
+  #giving-header .left {
     width: 100%;
     height: 300px;
-    font-size: 10.3vw;
+    font-size: 10vw;
   }
 
-  #our-progress .right .icon { width: 12.4vw; left: 7%; }
+  #our-progress .right .icon,
+  #giving-header .left .icon { width: 12.4vw; left: 7%; }
 
   #blog .blog-image { top: auto; bottom: 0; width: 100%; height: 400px; box-shadow: none; }
 
@@ -1601,6 +1745,15 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #about-footer .site-width { padding: 2em 0; }
 
   .livestock #header-header { font-size: 10vw; }
+
+  #giving .donate,
+  #giving .donate.right { float: none; width: 100%; }
+
+  #giving .donate IMG { margin: 15px 0; }
+
+  #giving .donate .amount { margin: 15px 0 20px; }
+
+  #giving-footer { height: 300px; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1648,7 +1801,8 @@ A.button.green:hover, A.button.green:active { background: #001648; color: #55BA4
   #leadership-header .right:before { width: 70%; }
 
   #our-progress .right,
-  #leadership-header .left { height: 250px; }
+  #leadership-header .left,
+  #giving-header .left { height: 250px; }
 
   #blog .blog-image { height: 300px; }
   #blog .blog-text { margin-bottom: 300px; }

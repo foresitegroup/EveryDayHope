@@ -41,7 +41,7 @@ function HeaderContent() { ?>
   <div class="image2" style="background-image: url(images/livestock-overview2.jpg);"></div>
 </div>
 
-<div id="for-life">Livestock for Life</div>
+<div id="details-header">Livestock for Life</div>
 
 <div id="details">
   <div class="images cf">

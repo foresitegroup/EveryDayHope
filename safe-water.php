@@ -41,26 +41,66 @@ function HeaderContent() { ?>
   <div class="image2" style="background-image: url(images/safewater-overview2.jpg);"></div>
 </div>
 
-<div id="for-life">Livestock for Life</div>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#details-header .button").click(function(){
+      $("#details-header .button, #details .text").removeClass("current");
+      $(this).add("#"+$(this).data("tab")).addClass("current");
+    });
+  });
+</script>
+
+<div id="details-header">
+  <div class="site-width">
+    How We Help:
+    <span></span>
+    <div class="button current" data-tab="tab1">Domestic Water Use</div>
+    <div class="button" data-tab="tab2">Handpump Water Stations</div>
+  </div>
+</div>
 
 <div id="details">
-  <div class="images cf">
-    <div class="image1" style="background-image: url(images/livestock-details1.jpg);"></div>
-    <div class="image2" style="background-image: url(images/livestock-details2.jpg);"></div>
-  </div>
-
   <div class="site-width">
-    <div class="text">
-      Every Day Hope will provide families with goats or pigs that they will raise for reproduction, consumption and or income. The family will donate the first born to Every Day Hope, which will then provide another family with livestock. The program is designed to multiply in order to keep on giving.<br>
+    <div class="text current" id="tab1">
+      <h2>Current Domestic Water Use in the Dominican Republic</h2>
+
+      Safe water is not easily available to all of the Dominican Republic's population. In many of the small outlying villages, many people rely on the rain water which is collected from the run off of their rooftop. The systems are not hygienic, are contaminated and even the collection containers are tainted.<br>
       <br>
 
-      The individual must go through an application process to demonstrate ability to raise the given livestock on their property and what their strategy/plan is. There is a mandatory set of workshops they must attend on the subject of animal care and husbandry. We are empowering them to make a living for themselves and to be a blessing to another community member. It keeps giving, while the participants are given a hope for an economic future.<br>
-      <br>
-
-      With your investment, we can see individuals, families and communities thrive.<br>
+      Every Day Hope partners with communities to provide safe daily use water and it is our hope to see these communities thrive. Provision of safe water alone however, will not improve health as there is an educational and awareness component that must be addressed. Community wide "Health and Hygiene Campaigns" are a vital part of a water supply project. Knowledge and behavior change as well as community involvement and commitment are crucial.<br>
 
       <a href="#giving" class="button togiving">Take Action</a>
     </div>
+
+    <div class="text" id="tab2">
+      <h2>Every Day Hope Water Pump Stations</h2>
+
+      Many communities in the Dominican Republic use canal water, rain water, or other contaminated water sources in their homes for washing clothes, cleaning house, and bathing. Every Day Hope believes that this is an injustice to any people group. To rectify this situation, EDH is working with local organizations to drill safe wells and install hand pumps or electric pumps for the village's daily water usage.<br>
+      <br>
+
+      In addition to installing the pumps, EDH is currently establishing community cooperatives. The cooperatives consist of a council of people who live in the community and oversee, direct, and manage the hand pumps in their area. The cooperatives will also be educated on proper usage, regulations, and the maintenance of the pumps. These cooperatives ask a little money or time from the community members in order to maintain the wells for generations.<br>
+      <br>
+
+      Two types of Safe Water pumps that bring clean (non potable water) and relative costs. The communities, through their water cooperatives, help raise funds and collect for regular maintenance. But they need our help!<br>
+      <br>
+
+      <div class="pumps">
+        <div>Well Drilling, Reserve Tank and Electric Pump</div>
+        $8,000-$10,000
+      </div>
+      
+      <div class="pumps right">
+        <div>Well Drilled, Hand Pump Station</div>
+        $3,000-$5,000
+      </div>
+
+      <a href="#giving" class="button togiving">Take Action</a>
+    </div>
+  </div>
+
+  <div class="images cf">
+    <div class="image1" style="background-image: url(images/safewater-details1.jpg);"></div>
+    <div class="image2" style="background-image: url(images/safewater-details2.jpg);"></div>
   </div>
 </div>
 
@@ -76,72 +116,36 @@ function HeaderContent() { ?>
   </div>
 </div>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(window).on('load resize', function(){
+      if (window.innerWidth > 700) {
+        var highestBox = 0;
+        $(".donate").each(function(){
+          if($(this).height() > highestBox) { highestBox = $(this).height(); }
+        });
+        $(".donate").height(highestBox);
+      } else {
+        $(".donate").height("auto");
+      }
+    });
+  });
+</script>
+
 <div id="giving">
   <div class="site-width">
-    By investing in livestock, you are providing sustainable food and income for families in the region. The food can be consumed or sold, and the offspring can be used as a source of income or to increase food production.<br>
-
     <div class="donate">
-      <h3>A Pair of Goats</h3>
+      <h3>One Time Gift</h3>
+      Your generous gift will benefit and support the many lives impacted by Every Day Hope in the Dominican Republic.<br>
 
-      <img src="images/goats.jpg" alt="">
-
-      <h4>COST</h4>
-
-      <div class="amount"><sup>$</sup> 185</div>
-
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="DBLV6PXKAJ59U" />
-        <input type="submit" name="submit" value="DONATE LIVESTOCK">
-      </form>
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button">One-Time Donation</a>
     </div>
 
     <div class="donate right">
-      <h3>A Pair of Pigs</h3>
+      <h3>Premier Partner</h3>
+      Your generous monthly gift will provide an on going benefit and support for the many lives impacted by Every Day Hope in the Dominican Republic.<br>
 
-      <img src="images/pigs.jpg" alt="">
-
-      <h4>COST</h4>
-
-      <div class="amount"><sup>$</sup> 75</div>
-
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="GZG9H422BHNBL" />
-        <input type="submit" name="submit" value="DONATE LIVESTOCK">
-      </form>
-    </div>
-
-    <div class="donate">
-      <h3>Share of Goats</h3>
-
-      <img src="images/goats.jpg" alt="">
-
-      <h4>COST</h4>
-
-      <div class="amount"><sup>$</sup> 50</div>
-
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="4H87B2RB3QS8U" />
-        <input type="submit" name="submit" value="DONATE LIVESTOCK">
-      </form>
-    </div>
-
-    <div class="donate right">
-      <h3>Share of Pigs</h3>
-
-      <img src="images/pigs.jpg" alt="">
-
-      <h4>COST</h4>
-
-      <div class="amount"><sup>$</sup> 25</div>
-
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="PPBLZ9UFRW3DQ" />
-        <input type="submit" name="submit" value="DONATE LIVESTOCK">
-      </form>
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button">Monthly Donation</a>
     </div>
   </div>
 </div>

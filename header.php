@@ -54,7 +54,7 @@
           <li><a href="about.php">About</a></li>
           <li><a href="livestock.php">Livestock</a></li>
           <li><a href="safe-water.php">Safe Water</a></li>
-          <li><a href="progress.php">Progress</a></li>
+          <li><a href="progress">Progress</a></li>
           <li><a href="get-involved.php">Get Involved</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>

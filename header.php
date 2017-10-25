@@ -1,3 +1,4 @@
+<?php if (!isset($TopDir)) $TopDir = ""; ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,16 +7,18 @@
     <meta name="viewport" content="width=device-width">
 
     <title>Every Day Hope<?php if (isset($PageTitle)) echo " | " . $PageTitle; ?></title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
     <meta name="description" content="">
     <meta name="keywords" content="">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="inc/main.css?<?php echo filemtime('inc/main.css'); ?>">
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php if ($TopDir == "") echo filemtime('inc/main.css'); ?>">
 
-    <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/swipebox/swipebox.css">
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/swipebox/jquery.swipebox.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
@@ -23,20 +26,21 @@
         $(window).on('load resize', function(){
           $('#menu-tagline').css({ right: $('#menu-toggle').css('right') });
         });
+        
+        $(".swipebox-video").swipebox({ autoplayVideos: true, videoMaxWidth : 1202 });
+        $(".sb, .single-post-gallery A").swipebox();
       });
     </script>
   </head>
   <body<?php if (isset($PageClass)) echo " class=\"" . $PageClass . "\""; ?>>
-    
-    <link rel="stylesheet" href="inc/swipebox/swipebox.css">
-    <script type="text/javascript" src="inc/swipebox/jquery.swipebox.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $(".swipebox-video").swipebox({ autoplayVideos: true, videoMaxWidth : 1200 });
-      });
-    </script>
 
-    <div id="header"<?php if (isset($HeaderImage)) echo " style=\"background-image: url(images/" . $HeaderImage . ");\""; ?>>
+    <?php
+    $HeadImg = "";
+    if (isset($HeaderImage)) $HeadImg = " style=\"background-image: url(images/" . $HeaderImage . ");\"";
+    if (isset($BlogHeaderImage)) $HeadImg = " style=\"background-image: url(" . $BlogHeaderImage . ");\"";
+    ?>
+
+    <div id="header"<?php echo $HeadImg; ?>>
       <?php if (!isset($PageTitle)) { ?>
       <video playsinline autoplay muted loop poster="images/video-banner.jpg">
         <source src="images/video-banner.mp4" type="video/mp4">
@@ -51,12 +55,12 @@
       </label>
       <div id="menu">
         <ul>
-          <li><a href="about.php">About</a></li>
-          <li><a href="livestock.php">Livestock</a></li>
-          <li><a href="safe-water.php">Safe Water</a></li>
-          <li><a href="progress">Progress</a></li>
-          <li><a href="get-involved.php">Get Involved</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="<?php echo $TopDir; ?>about.php">About</a></li>
+          <li><a href="<?php echo $TopDir; ?>livestock.php">Livestock</a></li>
+          <li><a href="<?php echo $TopDir; ?>safe-water.php">Safe Water</a></li>
+          <li><a href="<?php echo $TopDir; ?>progress">Progress</a></li>
+          <li><a href="<?php echo $TopDir; ?>get-involved.php">Get Involved</a></li>
+          <li><a href="<?php echo $TopDir; ?>contact.php">Contact</a></li>
         </ul>
 
         <div id="menu-contact">
@@ -71,7 +75,7 @@
       </div>
 
       <div class="site-width">
-        <a href="."><img src="images/logo.png" alt="Every Day Hope" id="logo"></a>
+        <a href="<?php echo $TopDir; ?>."><img src="<?php echo $TopDir; ?>images/logo.png" alt="Every Day Hope" id="logo"></a>
 
         <div id="header-text">
           <?php HeaderContent(); ?>

@@ -212,7 +212,7 @@ function HeaderContent() { ?>
   </div>
 </div>
 
-<div id="about-footer">
+<div id="micro-footer">
   <div class="site-width">
     Interested in Micro-Enterprise?<br>
 

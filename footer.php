@@ -22,13 +22,13 @@
     <div id="footer">
       <div class="site-width">
         <div class="col2">
-          <img src="images/footer-logo.png" alt="">
+          <img src="<?php echo $TopDir; ?>images/footer-logo.png" alt="">
         </div>
         
         <div class="col1">
-          <a href="get-involved.php">Get Involved</a>
+          <a href="<?php echo $TopDir; ?>get-involved.php">Get Involved</a>
           <div class="sep">/</div>
-          <a href="contact.php">Contact Us</a>
+          <a href="<?php echo $TopDir; ?>contact.php">Contact Us</a>
         </div>
 
         <div class="col3">

@@ -1,2 +1,7 @@
-
 inc/fintoozler.php
+progress/*
+!progress/wp-content/
+progress/wp-content/*
+!progress/wp-content/themes/
+progress/wp-content/themes/*
+!progress/wp-content/themes/everydayhope

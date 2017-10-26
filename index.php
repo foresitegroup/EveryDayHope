@@ -74,21 +74,27 @@
 </div>
 
 <div id="blog">
-  <div class="blog-image" style="background-image: url(images/blog-2016-11-01.jpg);"></div>
+  <?php
+  require('progress/wp-load.php');
+  query_posts('showposts=1');
+  while (have_posts()): the_post();
+  ?>
+  <div class="blog-image" style="background-image: url(<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>);"></div>
 
   <div class="site-width">
     <div class="blog-text">
-      <a href="blog" class="blog">VIEW ALL</a>
+      <a href="progress" class="blog">VIEW ALL</a>
 
-      <div class="date">November 1, 2016 <span class="sep">&bull;</span> Micro-Enterprise</div>
+      <div class="date"><?php echo get_the_date('F j, Y'); ?> <span class="sep">&bull;</span> <?php echo strip_tags(get_the_category_list(', ')); ?></div>
 
-      <div class="title">Clean water for Aguacate</div>
+      <div class="title"><?php echo get_the_title(); ?></div>
 
-      Every Day Hope along with the generous donations from two organizations, were able to put a well in the community of Aguacate. Not all of the world's population has access to safe domestic water.<br>
+      <?php echo fg_excerpt(2); ?><br>
 
-      <a href="#" class="button">READ POST</a>
+      <a href="<?php echo get_permalink(); ?>" class="button">READ POST</a>
     </div>
   </div>
+  <?php endwhile; ?>
 </div>
 
 <?php include "footer.php"; ?>

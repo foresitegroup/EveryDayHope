@@ -18,7 +18,7 @@ function HeaderContent() { ?>
   $(document).ready(function() {
     $(".togiving").click(function(e) {
       e.preventDefault();
-      $('html, body').animate({ scrollTop: $("#giving").offset().top }, 500);
+      $('html, body').animate({ scrollTop: $(".giving").offset().top }, 500);
     });
   });
 </script>
@@ -132,7 +132,7 @@ function HeaderContent() { ?>
   });
 </script>
 
-<div id="giving">
+<div class="giving">
   <div class="site-width">
     <div class="donate">
       <h3>One Time Gift</h3>

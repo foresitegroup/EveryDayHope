@@ -18,7 +18,7 @@ function HeaderContent() { ?>
   $(document).ready(function() {
     $(".togiving").click(function(e) {
       e.preventDefault();
-      $('html, body').animate({ scrollTop: $("#giving").offset().top }, 500);
+      $('html, body').animate({ scrollTop: $(".giving").offset().top }, 500);
     });
   });
 </script>
@@ -76,7 +76,7 @@ function HeaderContent() { ?>
   </div>
 </div>
 
-<div id="giving">
+<div class="giving">
   <div class="site-width">
     By investing in livestock, you are providing sustainable food and income for families in the region. The food can be consumed or sold, and the offspring can be used as a source of income or to increase food production.<br>
     

@@ -412,6 +412,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   padding: 1.2em 0 0.7em;
   width: 100%;
   box-sizing: border-box;
+  -webkit-appearance: none;
 }
 
 #subscribe INPUT::-webkit-input-placeholder { color: #082148; letter-spacing: 0.3em; }
@@ -683,7 +684,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   position: absolute;
   top: 0;
   left: 0;
-  width: 78%;
+  width: 80%;
   height: 100%;
   background: url(../images/home-our-progress.jpg) center center no-repeat;
   background-size: cover;
@@ -994,7 +995,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   position: absolute;
   top: 0;
   right: 0;
-  width: 78%;
+  width: 80%;
   height: 100%;
   background: url(../images/about-leadership.jpg) center center no-repeat;
   background-size: cover;
@@ -1371,7 +1372,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   position: absolute;
   top: 0;
   right: 0;
-  width: 78%;
+  width: 80%;
   height: 100%;
   background: url(../images/livestock-giving.jpg) center center no-repeat;
   background-size: cover;
@@ -1420,7 +1421,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   z-index: 2;
 }
 
-#giving {
+.giving {
   padding: 100px 0 150px;
   background: url(../images/background-white.jpg);
   color: #464646;
@@ -1428,28 +1429,30 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   line-height: 1.8em;
 }
 
-.safewater #giving { font-size: 17px; }
+.safewater .giving { font-size: 17px; }
 
-#giving .site-width {
+.giving .site-width {
   padding: 0 7%;
   box-sizing: border-box;
 }
 
-#giving .donate {
+.giving .donate {
   float: left;
   width: 39.62%;
   margin: 80px 0 20px;
 }
 
-.safewater #giving .donate {
+.safewater .giving .donate {
   margin: 0;
   position: relative;
   padding-bottom: 100px;
 }
 
-#giving .donate.right { float: right; }
+.get-involved .safewater .giving .donate { margin-top: 80px; }
 
-#giving .donate H3 {
+.giving .donate.right { float: right; }
+
+.giving .donate H3 {
   margin: 0;
   color: #082148;
   font-family: 'Droid Serif', serif;
@@ -1458,16 +1461,16 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   line-height: 1em;
 }
 
-.safewater #giving .donate H3 { margin-bottom: 1em; }
+.safewater .giving .donate H3 { margin-bottom: 1em; }
 
-#giving .donate IMG {
+.giving .donate IMG {
   margin: 25px 0;
   max-width: 100%;
   height: auto;
   box-shadow: 0 0 35px 0 rgba(0,0,0,0.15);
 }
 
-#giving .donate H4 {
+.giving .donate H4 {
   margin: 0;
   color: #082148;
   font-weight: 800;
@@ -1476,7 +1479,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   letter-spacing: 0.4em;
 }
 
-#giving .donate .amount {
+.giving .donate .amount {
   margin: 20px 0 40px;
   color: #082148;
   font-weight: 700;
@@ -1484,16 +1487,16 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   line-height: 1em;
 }
 
-#giving .donate .amount SUP { font-size: 50%; }
+.giving .donate .amount SUP { font-size: 50%; }
 
-.safewater #giving .donate A.button {
+.safewater .giving .donate A.button {
   position: absolute;
   bottom: 0;
 }
 
-#giving .donate A.button:link,
-#giving .donate A.button:visited,
-#giving .donate INPUT[type="submit"] {
+.giving .donate A.button:link,
+.giving .donate A.button:visited,
+.giving .donate INPUT[type="submit"] {
   outline: 0;
   border: 0;
   border-radius: 1.8em/50%;
@@ -1508,9 +1511,9 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   box-shadow: 0 0 25px 0 rgba(0,0,0,0.25);
 }
 
-#giving .donate A.button:hover,
-#giving .donate A.button:active,
-#giving .donate INPUT[type="submit"]:hover {
+.giving .donate A.button:hover,
+.giving .donate A.button:active,
+.giving .donate INPUT[type="submit"]:hover {
   background: #53C3F0;
   color: #082148;
 }
@@ -1621,6 +1624,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   letter-spacing: 0.1em;
   line-height: 1em;
   margin-right: 2em;
+  display: inline-block;
 }
 
 .progress .categories .cats A:last-of-type { margin-right: 0; }
@@ -1643,6 +1647,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 }
 
 .progress .categories .search-form {
+  position: relative;
   float: right;
   width: 23%;
 }
@@ -1662,6 +1667,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   line-height: 1em;
   letter-spacing: 0.1em;
   text-align: right;
+  -webkit-appearance: none;
 }
 
 .progress .categories .search-form .search-submit {
@@ -1770,7 +1776,8 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   text-transform: uppercase;
 }
 
-.half1 .index-post-text H2 {
+.index-post:nth-of-type(5n+1) H2,
+.index-post:nth-of-type(5n+2) H2 {
   font-size: 32px;
   line-height: 1.2em;
 }
@@ -1912,6 +1919,123 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   margin-right: 0;
 }
 
+.get-involved #header-text {
+  width: 60%;
+  font-size: 27px;
+  line-height: 1.8em;
+}
+
+.get-involved #header-header {
+  font-size: 65px;
+  margin-bottom: 0.7em;
+}
+
+.get-involved #header-links {
+  margin-top: 80px;
+  color: #58B947;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.get-involved #header-links SPAN:after {
+  content: "\f04b";
+  font-family: "FontAwesome";
+  font-size: 60%;
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.get-involved #one-time {
+  padding: 150px 0 125px;
+  background: url(../images/background-white.jpg);
+}
+
+.get-involved #one-time .site-width {
+  padding: 0 7%;
+  box-sizing: border-box;
+  color: #464646;
+  font-size: 24px;
+  line-height: 2em;
+}
+
+.get-involved #one-time H1 {
+  margin: 0 0 0.6em;
+  color: #082148;
+  font-family: 'Droid Serif', serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.get-involved #one-time H1:before {
+  content: "";
+  position: absolute;
+  left: -70px;
+  bottom: 0.3em;
+  z-index: -1;
+  width: 87px;
+  height: 87px;
+  background: url(../images/icon-hands.png) center center no-repeat;
+  background-size: cover;
+}
+
+.get-involved #one-time A.button:link,
+.get-involved #one-time A.button:visited {
+  outline: 0;
+  border: 0;
+  border-radius: 1.8em/50%;
+  padding: 1.2em 3.2em 1.2em 3.5em;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1em;
+  letter-spacing: 0.3em;
+  background: #082148;
+  color: #53C3F0;
+  cursor: pointer;
+  box-shadow: 0 0 25px 0 rgba(0,0,0,0.25);
+}
+
+.get-involved #one-time A.button:hover,
+.get-involved #one-time A.button:active {
+  background: #53C3F0;
+  color: #082148;
+}
+
+.get-involved #safewater-header,
+.get-involved #livestock-header {
+  position: relative;
+  background: url(../images/about-dr.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.get-involved #livestock-header { background-image: url(../images/get-involved-livestock.jpg); }
+
+.get-involved #safewater-header:after,
+.get-involved #livestock-header:after {
+  content: "";
+  display: block;
+  padding-top: 31.25%;
+}
+
+.get-involved .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 21.33%;
+  height: auto;
+}
+
+.get-involved #giving-footer {
+  background: url(../images/get-involved-footer.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.get-involved #giving-footer .site-width { text-align: right; }
+
 .contact #header-text {
   width: 60%;
   font-size: 27px;
@@ -1973,6 +2097,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 2em;
+  -webkit-appearance: none;
 }
 
 #contact-form TEXTAREA {
@@ -2033,6 +2158,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   font-weight: 700;
   font-size: 16px;
   line-height: 1em;
+  -webkit-appearance: none;
 }
 
 #contact-form INPUT[type="checkbox"] { display: none; }
@@ -2147,7 +2273,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   .safewater #details .images .image1 { height: 55%; }
   .safewater #details .images .image2 { height: 45%; }
 
-  #giving .donate { width: 40.8%; }
+  .giving .donate { width: 40.8%; }
   
   .blog-single P,
   .blog-single BLOCKQUOTE { width: 80%; }
@@ -2187,7 +2313,16 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   #giving-header .left { font-size: 5vw; }
   #giving-header .left .icon { top: 50%; transform: translateY(-110%); width: 7vw; }
 
-  #giving .donate { width: 45%; }
+  .giving .donate { width: 45%; }
+
+  .progress #header-text { width: 80%; }
+
+  .progress .categories .cats A { margin-right: 1em; }
+
+  .get-involved #header-text { width: 75%; }
+
+  .get-involved #safewater-header:after,
+  .get-involved #livestock-header:after { padding-top: 40%; }
 
   #contact-content .site-width { padding: 0 6%; }
 }
@@ -2261,7 +2396,35 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 
   .safewater #details .togiving { margin-top: 50px; }
 
-  #giving .site-width { padding: 0; }
+  .giving .site-width { padding: 0; }
+
+  .progress .categories .cats { position: static; text-align: center; margin-bottom: 2em; }
+  .progress .categories .cats A { margin-right: 2em; }
+
+  .progress .categories .search-form { float: none; width: 360px; box-sizing: border-box; margin: 0 auto; }
+
+  .index-post.triple { width: 100%; padding-bottom: 4em; }
+  .index-post.triplemid { margin-left: 0; margin-right: 0; }
+
+  .triple .index-post-image {
+    padding-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43%;
+    height: 100%;
+  }
+
+  .triple .index-post-text {
+    width: 50%;
+    margin-left: 43%;
+    padding: 2em 3%;
+  }
+
+  .triple .index-post-hover { left: 46%; }
+
+  .get-involved #header-text { width: 96%; }
 }
 
 @media only screen and (max-width: 700px) {
@@ -2409,11 +2572,19 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 
   #details .togiving { margin-top: 50px; }
 
-  .safewater #giving .donate,
-  .safewater #giving .donate.right { float: none; width: 100%; padding-bottom: 0; }
-  .safewater #giving .donate.right { margin-top: 80px; }
-  .safewater #giving .donate H3 { margin-bottom: 0.5em; }
-  .safewater #giving .donate A.button { position: static; margin-top: 2em; }
+  .safewater .giving .donate,
+  .safewater .giving .donate.right { float: none; width: 100%; padding-bottom: 0; }
+  .safewater .giving .donate.right { margin-top: 80px; }
+  .safewater .giving .donate H3 { margin-bottom: 0.5em; }
+  .safewater .giving .donate A.button { position: static; margin-top: 2em; }
+
+  .progress #header-text { width: 96%; }
+
+  .get-involved #header-text { font-size: 3.8vw; }
+  .get-involved #header-header { font-size: 9vw; }
+
+  .get-involved #safewater-header:after,
+  .get-involved #livestock-header:after { padding-top: 60%; }
 
   #contact-content .left { float: none; width: 100%; }
   #contact-content .right { float: none; width: 100%; margin-top: 2em; }
@@ -2441,14 +2612,52 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 
   .livestock #header-header { font-size: 10vw; }
 
-  #giving .donate,
-  #giving .donate.right { float: none; width: 100%; }
+  .giving .donate,
+  .giving .donate.right { float: none; width: 100%; }
 
-  #giving .donate IMG { margin: 15px 0; }
+  .giving .donate IMG { margin: 15px 0; }
 
-  #giving .donate .amount { margin: 15px 0 20px; }
+  .giving .donate .amount { margin: 15px 0 20px; }
 
   #giving-footer { height: 300px; }
+
+  .progress #header-text { font-size: 3.3vw; }
+  .progress #header-text .date { font-size: 70%; }
+  .progress #header-text H1 { font-size: 7vw; }
+  .progress #header-text H1.single { font-size: 12vw; }
+  .progress #header-text .button { margin-top: 10vw; }
+
+  .index-post:nth-of-type(5n+1),
+  .index-post:nth-of-type(5n+2) { width: 100%; padding-bottom: 4em; }
+
+  .index-post:nth-of-type(5n+1) .index-post-image,
+  .index-post:nth-of-type(5n+2) .index-post-image {
+    padding-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43%;
+    height: 100%;
+  }
+  
+  .index-post:nth-of-type(5n+1) .index-post-text,
+  .index-post:nth-of-type(5n+2) .index-post-text {
+    width: 50%;
+    margin-left: 43%;
+    padding: 2em 3%;
+    font-size: 12px;
+    line-height: 1.8em;
+  }
+
+  .index-post:nth-of-type(5n+1) H2,
+  .index-post:nth-of-type(5n+2) H2 {
+    font-size: 24px;
+    line-height: 1.2em;
+  }
+
+  .index-post:nth-of-type(5n+1) .index-post-hover,
+  .index-post:nth-of-type(5n+2) .index-post-hover { left: 46%; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -2520,4 +2729,39 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 
   #details .pumps { display: block; width: 100%; margin: 0; }
   #details .pumps.right { margin-top: 1.8em; }
+
+  .index-post:link, .index-post:visited { padding-bottom: 2em; }
+  
+  .index-post:nth-of-type(5n+1) .index-post-image,
+  .index-post:nth-of-type(5n+2) .index-post-image,
+  .triple .index-post-image {
+    padding-top: 50%;
+    position: static;
+    width: 100%;
+  }
+  
+  .index-post:nth-of-type(5n+1) .index-post-text,
+  .index-post:nth-of-type(5n+2) .index-post-text,
+  .triple .index-post-text {
+    width: 94%;
+    margin-left: 0;
+  }
+  
+  .index-post:nth-of-type(5n+1) .index-post-hover,
+  .index-post:nth-of-type(5n+2) .index-post-hover,
+  .triple .index-post-hover {
+    position: static;
+    margin-left: 3%;
+  }
+
+  .single-post-gallery.gallery-columns-2 A,
+  .single-post-gallery.gallery-columns-3 A,
+  .single-post-gallery.gallery-columns-4 A,
+  .single-post-gallery.gallery-columns-5 A,
+  .single-post-gallery.gallery-columns-6 A,
+  .single-post-gallery.gallery-columns-7 A,
+  .single-post-gallery.gallery-columns-8 A,
+  .single-post-gallery.gallery-columns-9 A {
+    width: 100%;
+  }
 }

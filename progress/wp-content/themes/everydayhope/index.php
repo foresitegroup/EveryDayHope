@@ -4,6 +4,7 @@ $PageClass = "progress";
 $TopDir = substr( home_url(), 0, strrpos( home_url(), '/')+1);
 
 the_post();
+if (is_single()) $PageTitle .= " | " . get_the_title();
 $BlogHeaderImage = wp_get_attachment_url(get_post_thumbnail_id());
 
 include "../header.php";
@@ -155,7 +156,7 @@ if (!is_single()) :
   <div class="site-width">
     Interested in Micro-Enterprise?<br>
 
-    <a href="<?php echo home_url('/'); ?>contact.php" class="button">Contact Us</a>
+    <a href="<?php echo $TopDir; ?>contact.php" class="button">Contact Us</a>
   </div>
 </div>
 

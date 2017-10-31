@@ -2,10 +2,10 @@
     <div id="subscribe">
       <div class="site-width">
         <!-- Begin MailChimp Signup Form -->
-        <form action="http://everydayministries.us1.list-manage.com/subscribe/post?u=bd5f14a36880ebe8d7597a9da&amp;id=3a36af9c30" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <form action="https://everydayhope.us17.list-manage.com/subscribe/post?u=04317262907beca562ebace98&amp;id=94a750432c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div class="col1">Subscribe</div>
           <div class="col2">
-            <input type="text" name="b_bd5f14a36880ebe8d7597a9da_3a36af9c30" value="" style="position: absolute; left: -5000px;">
+            <input type="text" name="b_04317262907beca562ebace98_94a750432c" tabindex="-1" value="" style="position: absolute; left: -5000px;" aria-hidden="true">
             <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="ENTER EMAIL ADDRESS">
           </div>
           <div class="col3">

@@ -119,7 +119,7 @@ function HeaderContent() { ?>
         <textarea name="<?php echo md5("comment" . $ip . $salt . $timestamp); ?>" id="comment" placeholder="Comment" data-ph="Comment"></textarea>
 
         <input type="checkbox" name="mailinglist" id="mailinglist" value="yes">
-        <label for="mailinglist">Subscribe to the Everyday Hope Newsletter</label>
+        <label for="mailinglist">Subscribe to the Every Day Hope Newsletter</label>
 
         <div id="contact-form-messages"></div>
 

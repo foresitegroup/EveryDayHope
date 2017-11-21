@@ -42,8 +42,8 @@
 
     <div id="header"<?php echo $HeadImg; ?>>
       <?php if (!isset($PageTitle)) { ?>
-      <video playsinline autoplay muted loop poster="images/video-banner.jpg">
-        <source src="images/video-banner.mp4" type="video/mp4">
+      <video playsinline autoplay muted loop poster="images/home-banner.jpg">
+        <source src="images/home-banner.mp4" type="video/mp4">
       </video>
       <?php } ?>
 

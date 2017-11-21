@@ -549,37 +549,23 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 #safewater .icon,
 #livestock .icon {
   position: absolute;
-  top: 85px;
+  top: 90px;
   left: 55%;
   width: 95px;
   height: auto;
+  z-index: 3;
 }
 #livestock .icon { left: auto; right: 54%; }
 
-#safewater .site-width IMG,
-#livestock .site-width IMG {
-  width: 44%;
-  height: auto;
-  margin: 120px 4% 0 0;
-}
-#livestock .site-width IMG { margin-top: 160px; }
-
-#safewater .right,
-#livestock .left {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 3;
-  width: 44%;
-  transform: translateY(-100%);
+#safewater .left .links,
+#livestock .right .links {
+  margin-top: 120px;
   font-weight: 800;
   font-size: 14px;
   line-height: 1em;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  text-align: center;
 }
-#livestock .left { right: auto; left: 0; }
 
 #safewater A:link, #safewater A:visited,
 #livestock A:link, #livestock A:visited { color: #FFFFFF; text-decoration: none; }
@@ -609,10 +595,10 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 #safewater .image1,
 #livestock .image1 {
   position: absolute;
-  bottom: 42%;
+  top: 0;
   right: 0;
   z-index: 2;
-  width: 41.7%;
+  width: 38%;
   height: auto;
 }
 #livestock .image1 { right: auto; left: 0; }
@@ -622,7 +608,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 48%;
+  width: 44%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -943,7 +929,8 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 
 .about #impact .right {
   width: 65.21%;
-  background: url(../images/about-impact2.jpg) right center no-repeat;
+  background: url(../images/about-leadership.jpg) center center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -970,7 +957,6 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   font-size: 18px;
   line-height: 1em;
   padding: 1em 2.2em 1em 2.5em;
-  transform: translateX(20%);
 }
 
 .about #impact .right .button:hover,
@@ -997,7 +983,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   right: 0;
   width: 80%;
   height: 100%;
-  background: url(../images/about-leadership.jpg) center center no-repeat;
+  background: url(../images/about-impact2.jpg) center center no-repeat;
   background-size: cover;
   z-index: -1;
 }
@@ -1308,7 +1294,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 #details .images .image1,
 #details .images .image2 {
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
   height: 59%;
 }
@@ -2243,10 +2229,48 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 
 
 
+@media only screen and (min-width: 2000px) {
+  #safewater, #livestock { min-height: 500px; }
 
+  #safewater .image1, #livestock .image1 { width: 600px; }
+  #safewater .image2, #livestock .image2 { width: 700px; }
 
+  #overview .image1 { width: 700px; }
+  #overview .image2 { width: 790px; }
+}
 
+@media only screen and (min-width: 1900px) and (max-width: 1999px) {
+  #safewater .image1, #livestock .image1 { width: 28%; }
+  #safewater .image2, #livestock .image2 { width: 36%; }
 
+  #overview .image1 { width: 35%; }
+  #overview .image2 { width: 40%; }
+}
+
+@media only screen and (min-width: 1750px) and (max-width: 1899px) {
+  #safewater .image1, #livestock .image1 { width: 30%; }
+  #safewater .image2, #livestock .image2 { width: 38%; }
+
+  #overview .image1 { width: 38%; }
+  #overview .image2 { width: 43%; }
+}
+
+@media only screen and (min-width: 1550px) and (max-width: 1749px) {
+  #safewater .image1, #livestock .image1 { width: 34%; }
+  #safewater .image2, #livestock .image2 { width: 40%; }
+
+  #overview .image1 { width: 42%; }
+  #overview .image2 { width: 48%; }
+}
+
+@media only screen and (min-width: 1550px) {
+  #our-progress .left:before,
+  #leadership-header .right:before,
+  #giving-header .right:before { width: 90%; }
+  
+  #overview .icon { left: 52%; z-index: 3; }
+  #overview .image1 { bottom: auto; top: 0; }
+}
 
 
 @media only screen and (max-width: 1202px) {
@@ -2285,8 +2309,6 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   #safewater .button,
   #livestock .button { padding: 1.2em 1.2em 1.2em 1.6em; }
 
-  .about #impact .right { background-position: 80% center; }
-
   #giving-header .left .icon { left: 3%; }
 
   .safewater #details-header { text-align: center; font-size: 55px; }
@@ -2297,9 +2319,6 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 @media only screen and (max-width: 1000px) {
   #footer .col1 { bottom: 15px; }
   #footer .col1 .sep { display: block; visibility: hidden; }
-  
-  #safewater .right,
-  #livestock .left { width: 47%; }
 
   #home-impact { min-height: 400px; }
 
@@ -2339,17 +2358,17 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   #safewater,
   #livestock { padding: 60px 0; }
 
+  #safewater .left .links,
+  #livestock .right .links { margin-top: 60px; }
+
   #safewater .icon,
   #livestock .icon { top: 45px; }
 
-  #safewater .site-width IMG,
-  #livestock .site-width IMG { margin-top: 60px; }
-
   #safewater .image1,
-  #livestock .image1 { width: 45%; }
-  
-  #safewater .right { text-align: left; transform: translateY(-50%); }
-  #livestock .left { text-align: right; transform: translateY(-50%); }
+  #livestock .image1 { top: 20%; width: 40%; }
+
+  #safewater .image2,
+  #livestock .image2 { width: 48%; }
 
   #safewater .button { margin-right: 0; }
   #livestock .button { margin-left: 0; }
@@ -2358,8 +2377,6 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   #livestock A:not(.button) { display: block; margin-bottom: 2em; }
 
   .about #header-text { width: 75%; }
-
-  .about #impact .right { background-position: 75% center; }
 
   .livestock #header-text { width: 85%; }
 
@@ -2456,20 +2473,8 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   #safewater .icon { top: 85px; left: auto; right: 2%; width: 12vw; }
   #livestock .icon { top: 85px; left: 2%; width: 12vw; }
 
-  #safewater .site-width IMG,
-  #livestock .site-width IMG { width: 47%; }
-
-  #safewater .site-width IMG:nth-of-type(2),
-  #livestock .site-width IMG:nth-of-type(2) { margin-right: 0; }
-  
-  #safewater .right,
-  #livestock .left {
-    position: relative;
-    width: 100%;
-    transform: none;
-    margin-top: 2em;
-    text-align: center;
-  }
+  #safewater .left .links,
+  #livestock .right .links { text-align: center; }
 
   #safewater A:not(.button) { display: inline-block; margin: 0 0 0 2em; }
   #livestock A:not(.button) { display: inline-block; margin: 0 2em 0 0; }
@@ -2530,7 +2535,7 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   
   .about #impact { display: block; }
   .about #impact .left { width: 100%; min-height: 300px; }
-  .about #impact .right { width: 100%; min-height: 400px; background-position: 80% center; }
+  .about #impact .right { width: 100%; min-height: 400px; }
 
   #leadership .founder { float: none; width: 100%; }
   #leadership .right { padding-top: 0; }
@@ -2689,9 +2694,6 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
   #footer .col1 { margin-bottom: 2em; }
   #footer .col1 .sep { display: inline-block; visibility: visible; }
 
-  #safewater .site-width IMG,
-  #livestock .site-width IMG { width: 100%; margin: 1em 0 0 0; }
-
   #safewater A:not(.button) { display: block; margin: 2em 0 1.5em 0; }
   #livestock A:not(.button) { display: block; margin: 2em 0; }
   #livestock .button { margin-bottom: 1.5em; }
@@ -2710,11 +2712,6 @@ A.button.green:hover, A.button.green:active { background: #082148; color: #55BA4
 
   #blog .blog-image { height: 300px; }
   #blog .blog-text { margin-bottom: 300px; }
-
-  .about #impact .right { background-position: center center;}
-
-  .about #impact .right .button:link,
-  .about #impact .right .button:visited { transform: translateX(0) translateY(-250%); }
 
   #overview .links A.swipebox-video:link,
   #overview .links A.swipebox-video:visited { margin: 2em 0 0; display: block; }

@@ -21,7 +21,7 @@ function HeaderContent() { ?>
     Your generous gift will benefit and support the many lives impacted by Every Day Hope in the Dominican Republic.<br>
     <br>
 
-    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button">Donate</a>
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=H4F3B9QZ32DRS" class="button">Donate</a>
   </div>
 </div>
 

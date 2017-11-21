@@ -13,7 +13,7 @@ function HeaderContent() { ?>
 <div id="contact-content">
   <div class="site-width">
     <div class="left">
-      If you are with a university or reseach group and are interested in Micro-Enterprise please contact us directly at: <a href="mailto:info@everydayhope.org">info@everydayhope.org</a>
+      <!-- If you are with a university or reseach group and are interested in Micro-Enterprise please contact us directly at: <a href="mailto:info@everydayhope.org">info@everydayhope.org</a> -->
     </div>
     
     <div class="right">

@@ -16,15 +16,12 @@
     <div class="left">
       <h1>Safe Water Systems</h1>
 
-      Every Day Hope is committed to building safe water systems for communities and sustainable economic opportunities with livestock for impoverished families.<br>
+      Every Day Hope is committed to building safe water systems for communities and sustainable economic opportunities with livestock for impoverished families.
 
-      <img src="images/home-safewater1.jpg" alt="">
-      <img src="images/home-safewater2.jpg" alt="">
-    </div>
-
-    <div class="right">
-      <a href="safe-water.php" class="button">How We Help</a>
-      <a href="get-involved.php">+ Take Action</a>
+      <div class="links">
+        <a href="safe-water.php" class="button">How We Help</a>
+        <a href="get-involved.php">+ Take Action</a>
+      </div>
     </div>
   </div>
 
@@ -39,15 +36,12 @@
     <div class="right">
       <h1>Livestock for Life</h1>
 
-      Livestock For Life is a program that is designed to provide a variety of livestock that will keep reproducing for family needs.<br>
+      Livestock For Life is a program that is designed to provide a variety of livestock that will keep reproducing for family needs.
 
-      <img src="images/home-livestock3.jpg" alt="">
-      <img src="images/home-livestock4.jpg" alt="">
-    </div>
-
-    <div class="left">
-      <a href="get-involved.php">+ Take Action</a>
-      <a href="livestock.php" class="button">How We Help</a>
+      <div class="links">
+        <a href="get-involved.php">+ Take Action</a>
+        <a href="livestock.php" class="button">How We Help</a>
+      </div>
     </div>
   </div>
 

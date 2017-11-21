@@ -154,7 +154,7 @@ if (!is_single()) :
 <?php $MicroImage = (is_single()) ? "micro-blog-single.jpg" : "micro-blog-index.jpg"; ?>
 <div id="micro-footer" style="background-image: url(<?php echo $TopDir . "images/" . $MicroImage; ?>);">
   <div class="site-width">
-    Interested in Micro-Enterprise?<br>
+    Interested in leading a workshop?<br>
 
     <a href="<?php echo $TopDir; ?>contact.php" class="button">Contact Us</a>
   </div>

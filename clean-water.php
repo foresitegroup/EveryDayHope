@@ -1,11 +1,11 @@
 <?php
-$PageTitle = "Safe Water";
+$PageTitle = "Clean Water";
 $PageClass = "safewater";
-$HeaderImage = "safewater-header.jpg";
+$HeaderImage = "cleanwater-header.jpg";
 include "header.php";
 
 function HeaderContent() { ?>
-  <div id="header-header">Safe Water Systems</div>
+  <div id="header-header">Clean Water Systems</div>
 
   Our programs allow for people to build and grow their communities away from poverty through safe water systems and education on health &amp; hygiene.
 
@@ -44,8 +44,9 @@ function HeaderContent() { ?>
 <script type="text/javascript">
   $(document).ready(function() {
     $("#details-header .button").click(function(){
-      $("#details-header .button, #details .text").removeClass("current");
+      $("#details-header .button, #details .text, #details .images").removeClass("current");
       $(this).add("#"+$(this).data("tab")).addClass("current");
+      $(this).add("."+$(this).data("tab")).addClass("current");
     });
   });
 </script>
@@ -54,41 +55,33 @@ function HeaderContent() { ?>
   <div class="site-width">
     How We Help:
     <span></span>
-    <div class="button current" data-tab="tab1">Domestic Water Use</div>
-    <div class="button" data-tab="tab2">Handpump Water Stations</div>
+    <div class="button current" data-tab="tab1">Water Stations</div>
+    <div class="button" data-tab="tab2">Wellness Campaigns</div>
   </div>
 </div>
 
 <div id="details">
   <div class="site-width">
     <div class="text current" id="tab1">
-      <h2>Current Domestic Water Use in the Dominican Republic</h2>
+      <h2>Every Day Hope Water Stations</h2>
 
-      Safe water is not easily available to all of the Dominican Republic's population. In many of the small outlying villages, many people rely on the rain water which is collected from the run off of their rooftop. The systems are not hygienic, are contaminated and even the collection containers are tainted.<br>
+      Clean running water is not available to all of the Dominican Republic's population. Rural communities face the most challenges, as many people obtain their water from sources that are unprotected and contaminated. Others must use contaminated canal water or rain water collected from contaminated rooftop systems which are often without water during the dry season. Utilizing contaminated water for domestic use, leads to disease. Disease leads to loss of time, money, work and quality of life.<br>
       <br>
 
-      Every Day Hope partners with communities to provide safe daily use water and it is our hope to see these communities thrive. Provision of safe water alone however, will not improve health as there is an educational and awareness component that must be addressed. Community wide "Health and Hygiene Campaigns" are a vital part of a water supply project. Knowledge and behavior change as well as community involvement and commitment are crucial.<br>
-
-      <a href="#giving" class="button togiving">Take Action</a>
-    </div>
-
-    <div class="text" id="tab2">
-      <h2>Every Day Hope Water Pump Stations</h2>
-
-      Many communities in the Dominican Republic use canal water, rain water, or other contaminated water sources in their homes for washing clothes, cleaning house, and bathing. Every Day Hope believes that this is an injustice to any people group. To rectify this situation, EDH is working with local organizations to drill safe wells and install hand pumps or electric pumps for the village's daily water usage.<br>
+      Every Day Hope believes that clean water changes lives. To bring hope to this situation, EDH is collaborating with international partners, local organizations and communities to drill safe wells and build water stations. The water stations implements either a hand pump or electric pump depending on the community's demographics and daily water usage.<br>
       <br>
 
-      In addition to installing the pumps, EDH is currently establishing community cooperatives. The cooperatives consist of a council of people who live in the community and oversee, direct, and manage the hand pumps in their area. The cooperatives will also be educated on proper usage, regulations, and the maintenance of the pumps. These cooperatives ask a little money or time from the community members in order to maintain the wells for generations.<br>
+      In addition to installing the pumps, Every Day Hope establishes community cooperatives. The cooperatives consist of a council of people who live in the community and oversee, direct, and manage the water stations in their area. The cooperatives are also educated on proper usage, regulations, and the maintenance of the pumps. These cooperatives help raise funds and collect a minimal monthly usage fee from the community members in order to maintain the wells for generations. This promotes sustainability and a positive approach to being the change. But they need our help to begin.<br>
       <br>
 
-      Two types of Safe Water pumps that bring clean (non potable water) and relative costs. The communities, through their water cooperatives, help raise funds and collect for regular maintenance. But they need our help!<br>
+      There are two types of Clean Water Stations that bring clean (non potable water) to communities. The relative costs are as follows:<br>
       <br>
 
       <div class="pumps">
         <div>Well Drilling, Reserve Tank and Electric Pump</div>
-        $8,000-$10,000
+        $6,000-$9,000
       </div>
-      
+
       <div class="pumps right">
         <div>Well Drilled, Hand Pump Station</div>
         $3,000-$5,000
@@ -96,11 +89,28 @@ function HeaderContent() { ?>
 
       <a href="#giving" class="button togiving">Take Action</a>
     </div>
+
+    <div class="text" id="tab2">
+      <h2>Clean Water Also Involves Education</h2>
+
+      Access to clean water can protect and save lives, just because it's there. Many people are without clean water for daily living in the Dominican Republic as there are not even water lines to carry usable water to their communities. Every Day Hope partners with local communities to establish wells that provide safe daily use water with the purpose of seeing communities thrive.<br>
+      <br>
+
+      We believe water is one of the ways to break the cycle of poverty, to protect and save lives, and to bring hope. Provision of clean water alone however, will not improve health as there is an educational and awareness component that must be addressed. Community wide "Health and Hygiene Campaigns" are a vital part of a water supply project. Knowledge and behavior change as well as community involvement and commitment are crucial for transformation.<br>
+      <br>
+
+      <a href="#giving" class="button togiving">Take Action</a>
+    </div>
   </div>
 
-  <div class="images cf">
+  <div class="tab1 images cf current">
     <div class="image1" style="background-image: url(images/safewater-details1.jpg);"></div>
-    <div class="image2" style="background-image: url(images/safewater-details2.jpg);"></div>
+    <div class="image2" style="background-image: url(images/cleanwater-details2.jpg);"></div>
+  </div>
+
+  <div class="tab2 images cf">
+    <div class="image1" style="background-image: url(images/cleanwater-tab2-details1.jpg);"></div>
+    <div class="image2" style="background-image: url(images/cleanwater-tab2-details2.jpg);"></div>
   </div>
 </div>
 

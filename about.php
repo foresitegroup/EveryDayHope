@@ -7,7 +7,7 @@ include "header.php";
 function HeaderContent() { ?>
   <div id="header-header">Our Vision &amp; Mission</div>
 
-  Every Day Hope is committed to building safe water systems for communities and sustainable economic opportunities with livestock for impoverished families in the Dominican Republic.
+  Every Day Hope's vision is to see communities attain sustainability and an increased quality of life. Give people an opportunity for empowerment and it propels advancement. Partner this with community collaboration, and these changes can affect generations.
 
   <div id="header-links" class="learnmore">
     LEARN MORE
@@ -16,7 +16,7 @@ function HeaderContent() { ?>
 
 <div id="post-header">
   <div class="site-width">
-    We believe that everyone throughout the world has something to offer for the betterment of people today and future generations. If each one of us would contribute what we are capable of, the world's atmosphere would change for people, for good.
+    We believe that everyone throughout the world has something to offer for the betterment of people today and tomorrow. If each one of us contributes what we are capable of, the world's atmosphere would change for people, for good.
   </div>
 </div>
 
@@ -34,7 +34,7 @@ function HeaderContent() { ?>
     <div class="left">
       <h1>Our Values</h1>
 
-      Every Day Hope operates with the purpose of building sustainable communities that start with the individual. Our purpose is to improve the quality of life for good. For these reasons we have built and operate our organization according to the following values:
+      Every Day Hope is committed to affecting change in three major areas which we believe will impact not only the individual's quality of life but also that of the community: providing clean water for daily living, micro enterprise opportunities through the Livestock for Life program and empowerment through community education.
     </div>
 
     <div class="right">
@@ -84,13 +84,13 @@ function HeaderContent() { ?>
 
 <div id="dr">
   <div class="site-width">
-    The Dominican Republic has the ninth largest economy in Latin America. Though long known for sugar production, the economy is now dominated by services. The country's current economic progress is exemplified by its advanced telecommunication system, and transportation infrastructure. Nevertheless, unemployment, government corruption, and inconsistent electric service remain major Dominican problems. The country also has "marked income inequality." Every Day Hope works to build sustainable communities, raise the standard of living for families and bring hope to the people of the DR though safe water and livestock.<br>
+    The Dominican Republic has been long known for sugar, coffee and tobacco production, but currently the economy is now dominated by services. The country's current economic progress is exemplified by growth in its telecommunication system, and transportation infrastructure, tourism and free trade zones. Nevertheless, unemployment, government corruption, and inconsistent electric service remain major Dominican problems. The country also has "marked income inequality." Every Day Hope works to build sustainable communities, raise the standard of living for families and bring hope to the people of the DR though safe water, livestock, and community education.<br>
     <br>
 
-    The Dominican Republic is a nation on the island of Hispaniola, part of the Greater Antilles archipelago in the Caribbean region. The western three-eighths of the island is occupied by the nation of Haiti, making Hispaniola one of two Caribbean islands, along with Saint Martin, that are shared by two countries. Both by area and population, the Dominican Republic is the second largest Caribbean nation (after Cuba), with 48,445 square kilometers (18,705 sq mi) and an estimated 10 million people, one million of which live in the capital city, Santo Domingo.<br>
+    The Dominican Republic is a nation on the island of Hispaniola, part of the Greater Antilles archipelago in the Caribbean region. The western three-eighths of the island is occupied by the nation of Haiti. The Dominican Republic is the second largest Caribbean nation (after Cuba), with 48,445 square kilometers (18,705 sq mi) and third largest by population with an estimated 10 million people, three million of which live in the capital city, Santo Domingo.<br>
     <br>
 
-    The Dominican Republic is the most visited destination in the Caribbean. The year-round golf courses are among the top attractions on the island. As one of the region's most geographically diverse countries, the Dominican Republic boasts the Caribbean's highest mountain peak, Pico Duarte, as well as the Caribbean's largest lake and lowest elevation, Lake Enriquillo. The island has an average temperature of 26&deg;C (78.8&deg;F) and great biological diversity. The country is also home to the first cathedral, castle, monastery, and fortress in all of the Americas, located in Santo Domingo's Colonial Zone, an area declared as a World Heritage Site by UNESCO. Music and sport are of great importance in the Dominican culture, with Merengue and Bachata as the national dance and music, and baseball as the favorite sport.
+    The Dominican Republic is the most visited destination in the Caribbean. As one of the region's most geographically diverse countries, the Dominican Republic boasts the Caribbean's highest mountain peak, Pico Duarte, as well as the Caribbean's largest lake and lowest elevation, Lake Enriquillo. The island has an average temperature of 26&deg;C (78.8&deg;F) and great biological diversity. The country is also home to the first cathedral, castle, monastery, and fortress in all of the Americas, located in Santo Domingo's Colonial Zone, an area declared as a World Heritage Site by UNESCO. Music and sport are of great importance in the Dominican culture, with Merengue and Bachata as the national dance and music, and baseball as the favorite sport.
   </div>
 </div>
 
@@ -214,7 +214,7 @@ function HeaderContent() { ?>
 
 <div id="micro-footer">
   <div class="site-width">
-    Interested in Micro-Enterprise?<br>
+    For People. For Good.<br>
 
     <a href="contact.php" class="button">Contact Us</a>
   </div>

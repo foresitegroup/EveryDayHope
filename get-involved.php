@@ -7,7 +7,7 @@ include "header.php";
 function HeaderContent() { ?>
   <div id="header-header">Make a Difference</div>
 
-  By investing in livestock, safe water or the general fund you are providing a community with sustainable food and water resulting in better health and an income for families throughout the region.
+  By investing in livestock, clean water, and community educational programs you are providing people with an opportunity for sustainability, dignity and self-reliance. Give a gift that brings hope for a bright tomorrow.
 
   <div id="header-links">
     <span>Ways To Give</span>
@@ -16,9 +16,9 @@ function HeaderContent() { ?>
 
 <div id="one-time">
   <div class="site-width">
-    <h1>One Time</h1>
-    
-    Your generous gift will benefit and support the many lives impacted by Every Day Hope in the Dominican Republic.<br>
+    <h1>Give Hope</h1>
+
+    When you give hope, your generous gift will be applied where it is needed most to benefit and support the lives impacted by Every Day Hope in the Dominican Republic.<br>
     <br>
 
     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=H4F3B9QZ32DRS" class="button">Donate</a>
@@ -48,18 +48,18 @@ function HeaderContent() { ?>
 <div class="safewater">
   <div class="giving">
     <div class="site-width">
-      By investing in SAFE WATER you are setting up a community for better health and sustainability. Help bring safe water to a community.<br>
+      By investing in CLEAN WATER Stations and Wellness Campaigns you are positioning a community for better health, quality of living and sustainability. Help bring clean water to a community by partnering with Every Day Hope.<br>
 
       <div class="donate">
-        <h3>Safe Water - One Time Gift</h3>
-        Your generous gift will benefit and support the many lives impacted by Every Day Hope in the Dominican Republic.<br>
+        <h3>Clean Water - Give Now</h3>
+        Your generous gift will change lives in communities through the availability of clean water stations and community educational programs.<br>
 
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button">One-Time Donation</a>
       </div>
 
       <div class="donate right">
-        <h3>Safe Water - Premier Partner</h3>
-        Your generous monthly gift will provide an on going benefit and support for the many lives impacted by Every Day Hope in the Dominican Republic.<br>
+        <h3>Clean Water - Become a Partner</h3>
+        Your scheduled monthly gifts will provide ongoing support of community water projects and educational programs to support the development of sustainability.<br>
 
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button">Monthly Donation</a>
       </div>
@@ -73,7 +73,7 @@ function HeaderContent() { ?>
 
 <div class="giving">
   <div class="site-width">
-    By investing in livestock, you are providing sustainable food and income for families in the region. The food can be consumed or sold, and the offspring can be used as a source of income or to increase food production.<br>
+    By giving an animal, it is like providing a family with a small business. It produces food and income for families that can be consumed or sold. The offspring can be used as a resource to access school, medical care, food and sustainability.<br>
 
     <div class="donate">
       <h3>A Pair of Goats</h3>
@@ -114,7 +114,7 @@ function HeaderContent() { ?>
 
       <h4>COST</h4>
 
-      <div class="amount"><sup>$</sup> 50</div>
+      <div class="amount"><sup>$</sup> 65</div>
 
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick" />

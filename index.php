@@ -7,19 +7,19 @@
 
   <div id="header-links">
     <a href="https://vimeo.com/219036131" class="swipebox-video button green">Play Video <i class="fa fa-play" aria-hidden="true"></i></a>
-    <a href="get-involved.php">+ How Can I Help?</a>
+    <a href="get-involved.php">+ Give Now</a>
   </div>
 <?php } ?>
 
 <div id="safewater">
   <div class="site-width">
     <div class="left">
-      <h1>Safe Water Systems</h1>
+      <h1>Clean Water Systems</h1>
 
-      Every Day Hope is committed to building safe water systems for communities and sustainable economic opportunities with livestock for impoverished families.
+      Every Day Hope is committed to building clean daily use water systems while partnering with communities to improve their quality of life. Safe water is a way to a better life.
 
       <div class="links">
-        <a href="safe-water.php" class="button">How We Help</a>
+        <a href="clean-water.php" class="button">How We Help</a>
         <a href="get-involved.php">+ Take Action</a>
       </div>
     </div>
@@ -36,7 +36,7 @@
     <div class="right">
       <h1>Livestock for Life</h1>
 
-      Livestock For Life is a program that is designed to provide a variety of livestock that will keep reproducing for family needs.
+      Livestock For Life is a program that is designed to provide a variety of livestock that will keep reproducing for a family's economic needs.
 
       <div class="links">
         <a href="get-involved.php">+ Take Action</a>

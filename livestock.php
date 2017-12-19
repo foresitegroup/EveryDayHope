@@ -51,13 +51,13 @@ function HeaderContent() { ?>
 
   <div class="site-width">
     <div class="text">
-      Every Day Hope will provide families with goats or pigs that they will raise for reproduction, consumption and or income. The family will donate the first born to Every Day Hope, which will then provide another family with livestock. The program is designed to multiply in order to keep on giving.<br>
+      Every Day Hope provides families with goats or pigs that they raise for reproduction, consumption and or income. The family donates the first born to Every Day Hope, which will then provide another family with livestock. This act transforms  recipients into donors while producing a profound sense of accomplishment and dignity. The program is designed to multiply in order to keep on giving. It transforms families into participants in the growth and strengthening of their community.<br>
       <br>
 
-      The individual must go through an application process to demonstrate ability to raise the given livestock on their property and what their strategy/plan is. There is a mandatory set of workshops they must attend on the subject of animal care and husbandry. We are empowering them to make a living for themselves and to be a blessing to another community member. It keeps giving, while the participants are given a hope for an economic future.<br>
+      Entering the Livestock for Life program begins with the individual completing an application process to demonstrate their strategy and ability to raise the given livestock on their property. There is also a mandatory set of workshops on the subject of animal care and husbandry. Every Day Hope is empowering families to make a living for themselves and to be a blessing to other community members.<br>
       <br>
 
-      With your investment, we can see individuals, families and communities thrive.<br>
+      With your investment, we can see individuals, families and communities transformed.<br>
 
       <a href="#giving" class="button togiving">Take Action</a>
     </div>
@@ -79,7 +79,7 @@ function HeaderContent() { ?>
 <div class="giving">
   <div class="site-width">
     By investing in livestock, you are providing sustainable food and income for families in the region. The food can be consumed or sold, and the offspring can be used as a source of income or to increase food production.<br>
-    
+
     <div class="donate">
       <h3>A Pair of Goats</h3>
 
@@ -95,7 +95,7 @@ function HeaderContent() { ?>
         <input type="submit" name="submit" value="DONATE LIVESTOCK">
       </form>
     </div>
-    
+
     <div class="donate right">
       <h3>A Pair of Pigs</h3>
 

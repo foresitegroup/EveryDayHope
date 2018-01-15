@@ -110,7 +110,7 @@ function HeaderContent() { ?>
           <select name="interest" id="interest">
             <option value="">I am interested in</option>
             <option value="General">General</option>
-            <option value="Micro-Enterprise">Micro-Enterprise</option>
+            <option value="Community Education">Community Education</option>
             <option value="Volunteering">Volunteering</option>
             <option value="More Information">More Information</option>
           </select>

@@ -119,7 +119,7 @@ function HeaderContent() { ?>
 
       <h4>COST</h4>
 
-      <div class="amount"><sup>$</sup> 50</div>
+      <div class="amount"><sup>$</sup> 65</div>
 
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick" />

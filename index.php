@@ -16,7 +16,7 @@
     <div class="left">
       <h1>Clean Water Systems</h1>
 
-      Every Day Hope is committed to building clean daily use water systems while partnering with communities to improve their quality of life. Safe water is a way to a better life.
+      Every Day Hope is committed to building clean daily use water systems while partnering with communities to improve their quality of life. Clean water is a way to a better life.
 
       <div class="links">
         <a href="clean-water.php" class="button">How We Help</a>
@@ -49,6 +49,26 @@
   <img src="images/home-livestock1.jpg" alt="" class="image1">
 
   <div class="image2" style="background-image: url(images/home-livestock2.jpg);"></div>
+</div>
+
+<div id="education">
+  <div class="site-width">
+    <div class="left">
+      <h1>Community Education</h1>
+
+      Community Education is an area of development which is a necessary component of building healthy and sustainable communities.
+
+      <div class="links">
+        <a href="community-education.php" class="button">How We Help</a>
+        <a href="get-involved.php">+ Take Action</a>
+      </div>
+    </div>
+  </div>
+
+  <img src="images/icon-book.png" alt="" class="icon">
+  <img src="images/home-education1.jpg" alt="" class="image1">
+
+  <div class="image2" style="background-image: url(images/home-education2.jpg);"></div>
 </div>
 
 <div id="home-impact">

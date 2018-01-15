@@ -58,6 +58,7 @@
           <li><a href="<?php echo $TopDir; ?>about.php">About</a></li>
           <li><a href="<?php echo $TopDir; ?>livestock.php">Livestock</a></li>
           <li><a href="<?php echo $TopDir; ?>clean-water.php">Clean Water</a></li>
+          <li><a href="<?php echo $TopDir; ?>community-education.php">Community education</a></li>
           <li><a href="<?php echo $TopDir; ?>progress">Progress</a></li>
           <li><a href="<?php echo $TopDir; ?>get-involved.php">Get Involved</a></li>
           <li><a href="<?php echo $TopDir; ?>contact.php">Contact</a></li>

@@ -71,7 +71,7 @@ if ($_POST['confirmationCAP'] == "") {
 
     $Message = stripslashes($Message);
   
-    // mail($SendTo, $Subject, $Message, $Headers);
+    mail($SendTo, $Subject, $Message, $Headers);
 
     $feedback = "Thank you for your interest in Every Day Hope. We will contact you soon.";
 

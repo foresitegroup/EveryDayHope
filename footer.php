@@ -34,7 +34,7 @@
         <div class="col3">
           <a href="https://www.facebook.com/everydayhopeDR"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a href="https://twitter.com/everydayhopeDR"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/everydayhopedr/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>

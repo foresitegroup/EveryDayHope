@@ -38,7 +38,7 @@ function HeaderContent() { ?>
 
   <div class="site-width">
     <div class="text">
-      Providing training is a priority for Every Day Hope. Education turns closed doors into opportunities. Every Day Hope partnerships with professionals locally and from around the world to share their expertise through community workshops. Through joint efforts we bring knowledge and training in the areas of small business development, personal growth, nutrition/wellness, child development, disease prevention, family health, civil service training, and animal husbandry.<br>
+      Providing training is a priority for Every Day Hope. Education turns closed doors into opportunities. Every Day Hope partners with professionals locally and from around the world to share their expertise through community workshops. Through joint efforts we bring knowledge and training in the areas of small business development, personal growth, nutrition/wellness, child development, disease prevention, family health, civil service training, and animal husbandry.<br>
       <br>
 
       Consider sharing from your expertise and train others through an Every Day Hope community workshop. Investing in the minds and futures of others is something that endures.<br>

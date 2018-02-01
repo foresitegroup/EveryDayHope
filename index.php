@@ -25,9 +25,7 @@
     </div>
   </div>
 
-  <img src="images/icon-safewater.png" alt="" class="icon">
   <img src="images/home-safewater3.jpg" alt="" class="image1">
-
   <div class="image2" style="background-image: url(images/home-safewater4.jpg);"></div>
 </div>
 
@@ -45,9 +43,7 @@
     </div>
   </div>
 
-  <img src="images/icon-livestock.png" alt="" class="icon">
   <img src="images/home-livestock1.jpg" alt="" class="image1">
-
   <div class="image2" style="background-image: url(images/home-livestock2.jpg);"></div>
 </div>
 
@@ -65,9 +61,7 @@
     </div>
   </div>
 
-  <img src="images/icon-book.png" alt="" class="icon">
   <img src="images/home-education1.jpg" alt="" class="image1">
-
   <div class="image2" style="background-image: url(images/home-education2.jpg);"></div>
 </div>
 

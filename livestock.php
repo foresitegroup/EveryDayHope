@@ -30,13 +30,13 @@ function HeaderContent() { ?>
 
       <div class="links">
         <a href="#giving" class="button togiving">Take Action</a>
-        <a href="https://vimeo.com/196649882" class="swipebox-video">Learn More <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
+        <a href="https://vimeo.com/196649882" class="swipebox-video">Play Video <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
 
   <img src="images/icon-livestock.png" alt="" class="icon">
-  <img src="images/livestock-overview1.jpg" alt="" class="image1">
+  <img src="images/livestock-overview1b.jpg" alt="" class="image1">
 
   <div class="image2" style="background-image: url(images/livestock-overview2.jpg);"></div>
 </div>

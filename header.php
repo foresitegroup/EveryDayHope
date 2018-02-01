@@ -34,9 +34,17 @@
   </head>
   <body<?php if (isset($PageClass)) echo " class=\"" . $PageClass . "\""; ?>>
 
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
     <?php
     $HeadImg = "";
-    if (isset($HeaderImage)) $HeadImg = " style=\"background-image: url(images/" . $HeaderImage . ");\"";
+    if (isset($HeaderImage)) $HeadImg = " style=\"background-image: url(images/" . $HeaderImage . "?" . filemtime('images/' . $HeaderImage) . ");\"";
     if (isset($BlogHeaderImage)) $HeadImg = " style=\"background-image: url(" . $BlogHeaderImage . ");\"";
     ?>
 

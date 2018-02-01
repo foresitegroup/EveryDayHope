@@ -152,7 +152,9 @@ function HeaderContent() { ?>
 
       <img src="images/james-larson.jpg" alt="">
 
-      <div class="intro">
+      James has over 20 years of managerial experience in the grocery industry and 16 years of ministry experience. In 2004, James and his family moved to the Dominican Republic to reside on a full-time basis where he was in charge of several community programs for a non-profit organization. In 2006 James and Renee founded their own organization called Every Day Ministries which coordinates visiting teams to help facilitate cross-cultural understanding, strengthens the local churches and provides leadership training. In 2009, James and Renee launched Every Day Hope, a nonprofit that exists to build sustainable communities in order to raise the standard of living and bring hope to the people of developing nations.
+
+      <!-- <div class="intro">
         Pioneering a better way of life has always been a part of James life goals. He has exemplified this in his own story of coming to the Dominican Republic knowing no-one yet setting out to make better for those around him. James is the co-founder of Every Day Hope. He has over 20 years of managerial experience.
 
         <div class="readmore">READ MORE</div>
@@ -175,7 +177,7 @@ function HeaderContent() { ?>
         <br>
 
         Pioneering a better way of life has always been a part of James life goals. He has exemplified this in his own story of coming to the Dominican Republic knowing no-one yet setting out to make better for those around him. In this endeavor he has not only effected change, but brought together an amazing community for the common good. James believes, as a true pioneer spirit would, "The best work is yet to come!"
-      </div>
+      </div> -->
     </div>
 
     <div class="founder right">
@@ -184,7 +186,9 @@ function HeaderContent() { ?>
 
       <img src="images/renee-larson.jpg" alt="">
 
-      <div class="intro">
+      Renee Larson is a college graduate, Summa Cum Laude, with a major in biology and minor in chemistry. Following graduation, Renee's career includes pharmaceutical representative and quality control overseer at a major paper manufacturer. Renee also home-educated their two sons from Kindergarten through High School. Moving to the Dominican Republic in 2004, Renee worked with an organization where she helped oversee a village's community projects as well as learned Spanish in the field. In 2006, Renee and James founded Every Day Ministries in a geographically untouched area which now consists of a network of over 1000 community leaders throughout the provinces on both the north and south coast. In 2009 Renee and James founded the non-profit organization, Every Day Hope, in answer to the growing practical needs they saw around them.
+
+      <!-- <div class="intro">
         Renee has the talent, education and initiative that is required for Every Day Hope's continued success. She and James founded the non-profit Every Day Hope in answer to the growing practical needs they saw around them in the Dominican Republic.
 
         <div class="readmore">READ MORE</div>
@@ -207,7 +211,7 @@ function HeaderContent() { ?>
         <br>
 
         In addition, Renee launched a mentoring group for women in leadership called Deborah Generation, designed to raise up local women to assume their roles with their greatest potential. In her role as administrator, Renee has championed change by designing and implementing a multitude of training workshops. Teaching nationals on a regular basis is Renee's passion in which she hopes to empower and equip them for self-sustainability.
-      </div>
+      </div> -->
     </div>
   </div>
 </div>

@@ -19,8 +19,8 @@ function HeaderContent() { ?>
     <div class="right">
       <strong>Our Mailing Address is:</strong><br>
       Every Day Hope<br>
-      PO. Box 232<br>
-      Cloquet, MN 55720
+      PO. Box 539<br>
+      Carlton, MN 55718
     </div>
 
     <div style="clear: both;"></div>
@@ -110,7 +110,7 @@ function HeaderContent() { ?>
           <select name="interest" id="interest">
             <option value="">I am interested in</option>
             <option value="General">General</option>
-            <option value="Community Education">Community Education</option>
+            <option value="Workshops">Workshops</option>
             <option value="Volunteering">Volunteering</option>
             <option value="More Information">More Information</option>
           </select>

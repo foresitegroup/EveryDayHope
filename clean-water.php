@@ -30,7 +30,7 @@ function HeaderContent() { ?>
 
       <div class="links">
         <a href="#giving" class="button togiving">Take Action</a>
-        <a href="https://www.youtube.com/watch?v=fiapGVp6y4o" class="swipebox-video">Learn More <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
+        <a href="https://vimeo.com/219036131" class="swipebox-video">Play Video <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
@@ -145,15 +145,15 @@ function HeaderContent() { ?>
 <div class="giving">
   <div class="site-width">
     <div class="donate">
-      <h3>One Time Gift</h3>
-      Your generous gift will benefit and support the many lives impacted by Every Day Hope in the Dominican Republic.<br>
+      <h3>Clean Water - Give Now</h3>
+      Your generous gift will change lives in communities through the availability of clean water stations and community educational programs.<br>
 
       <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button">One-Time Donation</a>
     </div>
 
     <div class="donate right">
-      <h3>Premier Partner</h3>
-      Your generous monthly gift will provide an on going benefit and support for the many lives impacted by Every Day Hope in the Dominican Republic.<br>
+      <h3>Clean Water - Become a Partner</h3>
+      Your scheduled monthly gifts will provide ongoing support of community water projects and educational programs to support the development of sustainability.<br>
 
       <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button">Monthly Donation</a>
     </div>

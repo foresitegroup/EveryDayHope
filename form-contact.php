@@ -64,7 +64,7 @@ if ($_POST['confirmationCAP'] == "") {
       $Message .= "\nEmail: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])];
 
     if (isset($_POST['interest']))
-      $Message .= "\n\nI am interested in: " . implode(", ", $_POST['interest']);
+      $Message .= "\n\nI am interested in: " . $_POST['interest'];
 
     if ($_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "")
       $Message .= "\n\nComment: \n" . $_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\n";

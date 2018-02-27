@@ -1105,6 +1105,8 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
 .education #micro-footer {
   background: url(../images/education-footer.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 #micro-footer:before {
@@ -1970,10 +1972,10 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   line-height: 1.8em;
 }
 
-.get-involved #header-header {
+/*.get-involved #header-header {
   font-size: 65px;
   margin-bottom: 0.7em;
-}
+}*/
 
 .get-involved #header-links {
   margin-top: 80px;

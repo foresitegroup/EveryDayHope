@@ -54,7 +54,7 @@ function HeaderContent() { ?>
         <h3>Clean Water - Give Now</h3>
         Your generous gift will change lives in communities through the availability of clean water stations and community educational programs.<br>
 
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button">One-Time Donation</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button">Donate Now</a>
       </div>
 
       <div class="donate right">

@@ -148,6 +148,8 @@ if (!is_single()) :
 <?php else : ?>
   <div class="blog-single">
     <?php get_template_part( 'content', get_post_format() ); ?>
+
+    <div style="text-align: center;"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=H4F3B9QZ32DRS" class="button">Donate Now</a></div>
   </div>
 <?php endif; ?>
 

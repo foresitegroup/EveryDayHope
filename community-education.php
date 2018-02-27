@@ -16,8 +16,8 @@ function HeaderContent() { ?>
       Education is growth. When individuals from a community realize they can make a difference and they have something within them of value and purpose, change happens. Together the community makes a decision to take ownership of their future.
 
       <div class="links">
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button togiving">Give Now</a>
-        <a href="progress/category/workshop/" class="learnmore">Learn More</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=H4F3B9QZ32DRS" class="button togiving">Give Now</a>
+        <a href="progress/category/workshops/" class="learnmore">Learn More</a>
       </div>
     </div>
   </div>
@@ -53,7 +53,7 @@ function HeaderContent() { ?>
   <div class="site-width">
     Empower Communities by Sponsoring Workshops<br>
 
-    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=N32SVVWLDYJCU" class="button">Give Now</a>
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=H4F3B9QZ32DRS" class="button">Give Now</a>
   </div>
 </div>
 

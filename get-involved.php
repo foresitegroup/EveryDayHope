@@ -84,7 +84,7 @@ function HeaderContent() { ?>
 
       <div class="amount"><sup>$</sup> 185</div>
 
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_s-xclick" />
         <input type="hidden" name="hosted_button_id" value="DBLV6PXKAJ59U" />
         <input type="submit" name="submit" value="DONATE LIVESTOCK">
@@ -100,7 +100,7 @@ function HeaderContent() { ?>
 
       <div class="amount"><sup>$</sup> 75</div>
 
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_s-xclick" />
         <input type="hidden" name="hosted_button_id" value="GZG9H422BHNBL" />
         <input type="submit" name="submit" value="DONATE LIVESTOCK">
@@ -116,7 +116,7 @@ function HeaderContent() { ?>
 
       <div class="amount"><sup>$</sup> 65</div>
 
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_s-xclick" />
         <input type="hidden" name="hosted_button_id" value="4H87B2RB3QS8U" />
         <input type="submit" name="submit" value="DONATE LIVESTOCK">
@@ -132,7 +132,7 @@ function HeaderContent() { ?>
 
       <div class="amount"><sup>$</sup> 25</div>
 
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_s-xclick" />
         <input type="hidden" name="hosted_button_id" value="PPBLZ9UFRW3DQ" />
         <input type="submit" name="submit" value="DONATE LIVESTOCK">

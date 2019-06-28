@@ -331,9 +331,9 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 #header-header {
   font-family: 'Droid Serif', serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 48px;
   line-height: 1em;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.75em;
   letter-spacing: 0;
 }
 
@@ -1499,7 +1499,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
 .giving .donate.right { float: right; }
 
-.giving .donate H3 {
+.giving .donate H3, .giving .donate-full H3 {
   margin: 0;
   color: #0F346C;
   font-family: 'Droid Serif', serif;
@@ -1517,13 +1517,20 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   box-shadow: 0 0 35px 0 rgba(0,0,0,0.15);
 }
 
-.giving .donate H4 {
+.giving .donate-full IMG {
+  margin: 25px 0;
+  max-width: 50%;
+  height: auto;
+}
+
+.giving .donate H4, .giving .donate-full H4 {
   margin: 0;
   color: #0F346C;
   font-weight: 800;
   font-size: 13px;
   line-height: 1em;
   letter-spacing: 0.4em;
+  text-transform: uppercase;
 }
 
 .giving .donate .amount {
@@ -1534,6 +1541,22 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   line-height: 1em;
 }
 
+.giving .donate-full .donate-full-amounts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 40px;
+}
+
+.giving .donate-full .donate-full-amounts .button {
+  min-width: 30%;
+  margin: 0.75em 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.giving .donate-full .donate-full-amounts .button.button-last { min-width: 100%; }
+
 .giving .donate .amount SUP { font-size: 50%; }
 
 .safewater .giving .donate A.button {
@@ -1543,6 +1566,8 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
 .giving .donate A.button:link,
 .giving .donate A.button:visited,
+.giving .donate-full A.button:link,
+.giving .donate-full A.button:visited,
 .giving .donate INPUT[type="submit"] {
   outline: 0;
   border: 0;
@@ -1560,6 +1585,8 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
 .giving .donate A.button:hover,
 .giving .donate A.button:active,
+.giving .donate-full A.button:hover,
+.giving .donate-full A.button:active,
 .giving .donate INPUT[type="submit"]:hover {
   background: #53C3F0;
   color: #0F346C;

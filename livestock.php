@@ -79,8 +79,30 @@ function HeaderContent() { ?>
 <div class="giving">
   <div class="site-width">
     By investing in livestock, you are providing sustainable food and income for families in the region. The food can be consumed or sold, and the offspring can be used as a source of income or to increase food production.<br>
+    <br>
 
-    <div class="donate">
+    Yes! I want to purchase a share of livestock today and give hope to families in need!<br>
+    <br>
+    
+    <div class="donate-full">
+      <h3>Goats and Pigs</h3>
+
+      <img src="images/goats.jpg" alt=""><img src="images/pigs.jpg" alt="">
+
+      <h4>Select Donation Amount</h4>
+
+      <div class="donate-full-amounts">
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GWRBSMV9EDJYS&source=url" class="button">$50</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G9XGET9NQJLQE&source=url" class="button">$75</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ED3LMUY3US2JS&source=url" class="button">$100</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2WQHW66HP3JWW&source=url" class="button">$250</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CVA5DK3KQ74FA&source=url" class="button">$500</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=48XWDQAECMZCY&source=url" class="button">$1000</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F5JH2JT57VB3U&source=url" class="button button-last">Other</a>
+      </div>
+    </div>
+
+    <!-- <div class="donate">
       <h3>A Pair of Goats</h3>
 
       <img src="images/goats.jpg" alt="">
@@ -142,7 +164,7 @@ function HeaderContent() { ?>
         <input type="hidden" name="hosted_button_id" value="PPBLZ9UFRW3DQ" />
         <input type="submit" name="submit" value="DONATE LIVESTOCK">
       </form>
-    </div>
+    </div> -->
   </div>
 </div>
 

@@ -5,12 +5,22 @@ $HeaderImage = "cleanwater-header.jpg";
 include "header.php";
 
 function HeaderContent() { ?>
-  <div id="header-header">Clean Water Systems</div>
+  <div id="header-flex">
+    <div id="header-header">Clean Water Systems</div>
 
-  Our programs allow for people to build and grow their communities away from poverty through safe water systems and education on health &amp; hygiene.
+    <div id="header-video">
+      <div id="header-video-wrap">
+        <iframe src="https://player.vimeo.com/video/323827886?title=0&byline=0&portrait=0" width="820" height="349" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  
+  <div id="header-flex-bottom">
+    Our programs allow for people to build and grow their communities away from poverty through safe water systems and education on health &amp; hygiene.
 
-  <div id="header-links">
-    <a href="#giving" class="button togiving">Take Action</a>
+    <div id="header-links">
+      <a href="#giving" class="button togiving">Take Action</a>
+    </div>
   </div>
 <?php } ?>
 

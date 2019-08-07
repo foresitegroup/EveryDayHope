@@ -2324,6 +2324,54 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   background-size: cover;
 }
 
+.safewater #header-text {
+  margin-top: 0.5em;
+  width: 1202px;
+  font-size: 26px;
+}
+
+.safewater #header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.safewater #header-header {
+  width: 4.5em;
+  margin-bottom: 0;
+  font-size: 66px;
+  line-height: 1.2em;
+}
+
+.safewater #header-video { width: 68%; }
+
+.safewater #header-video-wrap {
+  position: relative;
+  padding-bottom: 42.5%;
+}
+
+.safewater #header-video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px 5px rgba(83,195,240,0.75);
+}
+
+.safewater #header-flex-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.safewater #header-links { margin: 0 0 0 2em; }
+
+.safewater #header-links A { white-space: nowrap; }
+
+
+
 
 
 
@@ -2379,6 +2427,10 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
     -ms-transform: translate(-20%,-75%);
     transform: translate(-20%,-75%);
   }
+}
+
+@media only screen and (max-width: 1240px) {
+  .safewater #header-text { width: 96%; }
 }
 
 @media only screen and (max-width: 1202px) {
@@ -2512,6 +2564,8 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   #contact-content .left { width: 63%; }
   #contact-content .right { width: 30%; }
+
+  .safewater #header-header { font-size: 7.3vw; }
 }
 
 @media only screen and (max-width: 800px) {
@@ -2563,6 +2617,19 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   .triple .index-post-hover { left: 46%; }
 
   .get-involved #header-text { width: 96%; }
+
+  .safewater #header-flex { flex-direction: column-reverse; align-items: flex-start; margin-top: 130px; }
+  .safewater #header-header { width: 100%; margin-top: 0.25em; }
+  .safewater #header-video { width: 100%; }
+
+  .safewater #header-flex-bottom {
+    flex-direction: column;
+    margin-top: 0.5em;
+    font-size: 18px;
+    line-height: 1.4em;
+  }
+
+  .safewater #header-links { margin: 2em 0 0 0; width: 100%; }
 }
 
 @media only screen and (max-width: 700px) {

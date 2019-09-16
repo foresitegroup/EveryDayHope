@@ -10,7 +10,7 @@ function HeaderContent() { ?>
   Every Day Hope will provide families with goats or pigs that they will raise for reproduction, consumption and/or income.
 
   <div id="header-links">
-    <a href="#giving" class="button togiving">Take Action</a>
+    <a href="#giving" class="button togiving">Give Now</a>
   </div>
 <?php } ?>
 
@@ -29,7 +29,7 @@ function HeaderContent() { ?>
       Every Day Hope is working in impoverished communities to bring sustainability to families. Most families in the Dominican Republic are living on less than $5.00 a day. So to help this situation, Every Day Hope has created a program called "Livestock for Life", which is designed to provide a variety of livestock that will keep reproducing for family needs.
 
       <div class="links">
-        <a href="#giving" class="button togiving">Take Action</a>
+        <a href="#giving" class="button togiving">Give Now</a>
         <a href="https://vimeo.com/196649882" class="swipebox-video">Play Video <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
       </div>
     </div>
@@ -59,7 +59,7 @@ function HeaderContent() { ?>
 
       With your investment, we can see individuals, families and communities transformed.<br>
 
-      <a href="#giving" class="button togiving">Take Action</a>
+      <a href="#giving" class="button togiving">Give Now</a>
     </div>
   </div>
 </div>

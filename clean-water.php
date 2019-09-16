@@ -19,7 +19,7 @@ function HeaderContent() { ?>
     Our programs allow for people to build and grow their communities away from poverty through safe water systems and education on health &amp; hygiene.
 
     <div id="header-links">
-      <a href="#giving" class="button togiving">Take Action</a>
+      <a href="#giving" class="button togiving">Give Now</a>
     </div>
   </div>
 <?php } ?>
@@ -39,7 +39,7 @@ function HeaderContent() { ?>
       Disease is among the top contributors to the perpetuation of poverty with water borne diseases being one of the highest contributing in developing nations. Each person's occupation is necessary for the survival of a community and any absence casued by sickness or death can become a serious threat to the community's survival as a whole.
 
       <div class="links">
-        <a href="#giving" class="button togiving">Take Action</a>
+        <a href="#giving" class="button togiving">Give Now</a>
         <a href="https://vimeo.com/219036131" class="swipebox-video">Play Video <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
       </div>
     </div>
@@ -97,7 +97,7 @@ function HeaderContent() { ?>
         $3,000-$5,000
       </div>
 
-      <a href="#giving" class="button togiving">Take Action</a>
+      <a href="#giving" class="button togiving">Give Now</a>
     </div>
 
     <div class="text" id="tab2">
@@ -109,7 +109,7 @@ function HeaderContent() { ?>
       We believe water is one of the ways to break the cycle of poverty, to protect and save lives, and to bring hope. Provision of clean water alone however, will not improve health as there is an educational and awareness component that must be addressed. Community wide "Health and Hygiene Campaigns" are a vital part of a water supply project. Knowledge and behavior change as well as community involvement and commitment are crucial for transformation.<br>
       <br>
 
-      <a href="#giving" class="button togiving">Take Action</a>
+      <a href="#giving" class="button togiving">Give Now</a>
     </div>
   </div>
 

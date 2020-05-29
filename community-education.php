@@ -5,9 +5,23 @@ $HeaderImage = "education-header.jpg";
 include "header.php";
 
 function HeaderContent() { ?>
-  <div id="header-header">Community Education</div>
+  <div id="header-flex">
+    <div id="header-header">Community Education</div>
 
-  Providing community education opportunities is a vital component of cultivating change and initiating progress.
+    <div id="header-video">
+      <div id="header-video-wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SjqrsYXselo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  
+  <div id="header-flex-bottom">
+    Providing community education opportunities is a vital component of cultivating change and initiating progress.
+
+    <div id="header-links">
+      <a href="#giving" class="button togiving">Give Now</a>
+    </div>
+  </div>
 <?php } ?>
 
 <div id="overview">

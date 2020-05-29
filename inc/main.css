@@ -102,7 +102,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 #header {
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 3;
   min-height: 774px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -306,6 +306,9 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   line-height: 1em;
 }
 
+#menu-tagline DIV,
+#header-header DIV { display: inline; }
+
 #logo {
   margin-top: 24px;
   width: 151px;
@@ -344,7 +347,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   line-height: 1em;
 }
 
-#header-links .green { margin-right: 2em; }
+#header-links .swipebox-video { margin-right: 2em; }
 
 #header-links .green .fa { color: #FFFFFF; }
 
@@ -960,7 +963,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
 .about #impact .left {
   width: 34.79%;
-  background: url(../images/about-impact1b.jpg) center center no-repeat;
+  background: url(../images/about-impact1c.jpg) center bottom no-repeat;
   background-size: cover;
   min-height: 550px;
 }
@@ -1098,7 +1101,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 #leadership .founder .fulltext { margin-top: 1.5em; }
 
 #micro-footer {
-  background: url(../images/about-footer.jpg) center center no-repeat;
+  background: url(../images/about-footer2.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1177,12 +1180,16 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   margin-right: 0.2em;
 }
 
+.education #header-links .button.togiving:link,
+.education #header-links .button.togiving:visited,
 .safewater #header-links .button.togiving:link,
 .safewater #header-links .button.togiving:visited {
   background: #53C3F0;
   color: #0F346C;
 }
 
+.education #header-links .button.togiving:hover,
+.education #header-links .button.togiving:active,
 .safewater #header-links .button.togiving:hover,
 .safewater #header-links .button.togiving:active {
   background: #0F346C;
@@ -1297,18 +1304,15 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
 #details-header {
   padding: 1em 0;
-  background: #0F346C;
-  color: #53C3F0;
+  background: #53C3F0;
+  color: #0F346C;
   font-family: 'Droid Serif', serif;
   font-weight: bold;
   font-size: 55px;
   line-height: 1em;
-  text-align: center;
 }
 
-.safewater #details-header { background: #53C3F0; color: #0F346C; text-align: left; }
-
-.safewater #details-header .button {
+#details-header .button {
   display: inline-block;
   vertical-align: middle;
   margin-left: 50px;
@@ -1325,59 +1329,25 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   cursor: pointer;
 }
 
-.safewater #details-header .button.current,
-.safewater #details-header .button:hover {
+#details-header .button.current,
+#details-header .button:hover {
   background: #0F346C;
   color: #53C3F0;
 }
 
 #details { background: url(../images/background-cream.jpg); position: relative; }
 
-#details .images {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 45.27%;
-  height: 100%;
-  box-shadow: 5px 0 20px -2px rgba(0,0,0,0.2);
-}
+#details .tab-content { display: none; position: relative; }
 
-.safewater #details .images {
-  left: -99999px;
-  opacity: 0;
-  transition: opacity 0.6s linear;
-}
+#details .tab-content.current { display: block; }
 
-#details .images .image1,
-#details .images .image2 {
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  height: 59%;
-}
-
-#details .images .image2 { height: 41%; }
-
-.safewater #details .images .image1 { background-position: 80% top; }
-
-#details .text {
-  float: right;
+#details .tab-content .text {
   width: 48.66%;
+  margin-left: 51.34%;
   padding: 90px 0 115px;
   font-size: 17px;
   line-height: 1.8em;
 }
-
-.safewater #details { overflow: hidden; }
-.safewater #details .text {
-  position: absolute;
-  right: 99999px;
-  opacity: 0;
-  transition: opacity 0.6s linear;
-}
-.safewater #details .text.current { position: static; opacity: 1; }
-
-.safewater #details .images.current { left: 0; opacity: 1; }
 
 #details H2 {
   margin: 0 0 1em;
@@ -1402,6 +1372,24 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   margin-top: 100px;
   box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
 }
+
+#details .tab-content .images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 45.27%;
+  box-shadow: 5px 0 20px -2px rgba(0,0,0,0.2);
+}
+
+#details .tab-content .images DIV {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+#details .tab-content .images DIV:first-of-type { height: 59%; background-position: 80% top; }
+#details .tab-content .images DIV:last-of-type { height: 41%; }
 
 #giving-header { display: flex; }
 
@@ -2324,18 +2312,21 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   background-size: cover;
 }
 
+.education #header-text,
 .safewater #header-text {
   margin-top: 0.5em;
   width: 1202px;
   font-size: 26px;
 }
 
+.education #header-flex,
 .safewater #header-flex {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
+.education #header-header,
 .safewater #header-header {
   width: 4.5em;
   margin-bottom: 0;
@@ -2343,22 +2334,26 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   line-height: 1.2em;
 }
 
+.education #header-video,
 .safewater #header-video { width: 68%; }
 
+.education #header-video-wrap,
 .safewater #header-video-wrap {
   position: relative;
   padding-bottom: 42.5%;
 }
 
+.education #header-video-wrap iframe,
 .safewater #header-video-wrap iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  box-shadow: 0 0 15px 5px rgba(83,195,240,0.75);
+  box-shadow: 0 0 10px 5px rgba(83,195,240,0.2);
 }
 
+.education #header-flex-bottom,
 .safewater #header-flex-bottom {
   display: flex;
   justify-content: space-between;
@@ -2366,8 +2361,10 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   margin-top: 1em;
 }
 
+.education #header-links,
 .safewater #header-links { margin: 0 0 0 2em; }
 
+.education #header-links A,
 .safewater #header-links A { white-space: nowrap; }
 
 
@@ -2430,7 +2427,15 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 }
 
 @media only screen and (max-width: 1240px) {
-  .safewater #header-text { width: 96%; }
+  .education #header-text,
+  .safewater #header-text,
+  #details-header .site-width { width: 96%; }
+
+  #details-header { font-size: 4.435vw; }
+  #details-header .button { margin-left: 4.032vw; }
+
+  #details .tab-content .images DIV:first-of-type { height: 55%; }
+  #details .images DIV:last-of-type { height: 45%; }
 }
 
 @media only screen and (max-width: 1202px) {
@@ -2459,12 +2464,6 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   .livestock #header-text { padding-right: 0; }
 
   #overview .text { padding: 100px 0 100px 1%; }
-  
-  .safewater #details-header { font-size: 4.2vw; }
-  .safewater #details-header .button { margin-left: 1.3vw; }
-
-  .safewater #details .images .image1 { height: 55%; }
-  .safewater #details .images .image2 { height: 45%; }
 
   .giving .donate { width: 40.8%; }
   
@@ -2474,6 +2473,10 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   .blog-single IMG { max-width: 96%; }
 }
 
+@media only screen and (max-width: 1100px) {
+  .education #header-header { font-size: 5.5vw; }
+}
+
 @media only screen and (max-width: 1050px) {
   #safewater .button,
   #livestock .button,
@@ -2481,9 +2484,9 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   #giving-header .left .icon { left: 3%; }
 
-  .safewater #details-header { text-align: center; font-size: 55px; }
-  .safewater #details-header SPAN { display: block; }
-  .safewater #details-header .button { margin: 2em 20px 0; }
+  #details-header { text-align: center; font-size: 55px; }
+  #details-header SPAN { display: block; }
+  #details-header .button { margin: 2em 20px 0; }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -2564,7 +2567,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   #contact-content .left { width: 63%; }
   #contact-content .right { width: 30%; }
-
+  
   .safewater #header-header { font-size: 7.3vw; }
 }
 
@@ -2579,14 +2582,19 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   #overview .image2 { width: 50%; }
 
-  .safewater #details .images { position: static; width: 100%; height: auto; box-shadow: none; }
-
-  .safewater #details .images .image1,
-  .safewater #details .images .image2 { width: 50%; height: 300px; float: left; }
-
-  .safewater #details .text { float: none; width: 100%; padding: 80px 0; }
+  #details .tab-content .text { width: 100%; margin-left: 0; padding: 80px 0; }
 
   .safewater #details .togiving { margin-top: 50px; }
+
+  #details .tab-content .images {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    display: flex;
+  }
+
+  #details .tab-content .images DIV:first-of-type,
+  #details .tab-content .images DIV:last-of-type { height: 300px; width: 50%; }
 
   .giving .site-width { padding: 0; }
 
@@ -2617,11 +2625,18 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   .triple .index-post-hover { left: 46%; }
 
   .get-involved #header-text { width: 96%; }
-
+  
+  .education #header-flex,
   .safewater #header-flex { flex-direction: column-reverse; align-items: flex-start; margin-top: 130px; }
+
+  .education #header-header,
   .safewater #header-header { width: 100%; margin-top: 0.25em; }
+  .education #header-header { font-size: 7vw; }
+
+  .education #header-video,
   .safewater #header-video { width: 100%; }
 
+  .education #header-flex-bottom,
   .safewater #header-flex-bottom {
     flex-direction: column;
     margin-top: 0.5em;
@@ -2629,6 +2644,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
     line-height: 1.4em;
   }
 
+  .education #header-links,
   .safewater #header-links { margin: 2em 0 0 0; width: 100%; }
 }
 
@@ -2641,7 +2657,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   .livestock #header-text,
   .contact #header-text { width: 96%; font-size: 4vw; }
 
-  #header-links .green { margin-right: 4vw; }
+  #header-links .swipebox-video { margin-right: 4vw; }
 
   #subscribe { padding: 150px 0; }
   #subscribe .col1 { width: 100%; font-size: 65px; line-height: 1.2em; text-align: center; }
@@ -2735,7 +2751,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   #values .right IMG { top: 0; margin: 1em 0 0; }
   
   .about #impact { display: block; }
-  .about #impact .left { width: 100%; min-height: 300px; }
+  .about #impact .left,
   .about #impact .right { width: 100%; min-height: 400px; }
 
   #leadership .founder { float: none; width: 100%; }
@@ -2776,15 +2792,6 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   #overview .image2:after { padding-top: 56.52%; }
   .safewater #overview .image2:after,
   .education #overview .image2:after { padding-top: 59.31%; }
-
-  #details .images { position: static; width: 100%; height: auto; box-shadow: none; }
-
-  #details .images .image1,
-  #details .images .image2 { width: 50%; height: 300px; float: left; }
-
-  #details .text { float: none; width: 100%; padding: 80px 0; }
-
-  #details .togiving { margin-top: 50px; }
 
   .safewater .giving .donate,
   .safewater .giving .donate.right { float: none; width: 100%; padding-bottom: 0; }
@@ -2842,7 +2849,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   .progress #header-text .button { margin-top: 10vw; }
 
   .index-post:nth-of-type(5n+1),
-  .index-post:nth-of-type(5n+2) { width: 100%; padding-bottom: 4em; }
+  .index-post:nth-of-type(5n+2) { width: 100%; margin-right: 0; padding-bottom: 4em; }
 
   .index-post:nth-of-type(5n+1) .index-post-image,
   .index-post:nth-of-type(5n+2) .index-post-image {
@@ -2874,6 +2881,15 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   .index-post:nth-of-type(5n+2) .index-post-hover { left: 46%; }
 }
 
+@media only screen and (max-width: 500px) {
+  #menu-toggle { position: fixed; }
+  #menu { position: fixed; top: 50px; padding: 50px 0 50px 10%; }
+  #menu-toggle.scroll-menu, #menu.scroll-menu { top: 15px; }
+  #menu-toggle.scroll-menu { background: rgba(83,195,240,0.5); }
+
+  #header-header DIV { display: block; height: 0.25em; }
+}
+
 @media only screen and (max-width: 480px) {
   /*#menu-toggle { top: 20px; }*/
 
@@ -2888,16 +2904,14 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   #header { min-height: 600px; }
 
-  #header-text,
-  .about #header-text,
-  .livestock #header-text { font-size: 5vw; }
-  .about #header-text { line-height: 1.4em; }
+  #header-text, .livestock #header-text { font-size: 5vw; }
+  .about #header-text { font-size: 4.6vw; line-height: 1.4em; }
 
-  .about #header-header { margin-bottom: 1.5em; }
+  #header-header { margin-bottom: .4em; }
+  .about #header-header { font-size: 220%; margin-bottom: 0.5em; }
   
-  #header-links { margin-top: 50px; }
-  #header-links .green { margin-right: 0; }
-  #header-links A:not(.button) { display: block; margin-top: 2em; }
+  #header-links { margin-top: 25px; display: flex; flex-direction: column; align-items: flex-start; }
+  #header-links .swipebox-video { margin: 0 0 1.5em; }
 
   #footer .col1, #footer .col3 { width: 100%; float: none; text-align: center; }
   #footer .col1 { margin-bottom: 2em; }
@@ -2933,9 +2947,10 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   #overview .image2 { margin-top: 1em; }
   
-  .safewater #details .images .image1, .safewater #details .images .image2,
-  #details .images .image1, #details .images .image2 { width: 100%; float: none; }
-
+  #details .tab-content .images { flex-direction: column; }
+  #details .tab-content .images DIV:first-of-type,
+  #details .tab-content .images DIV:last-of-type { height: 300px; width: 100%; }
+  
   #details .pumps { display: block; width: 100%; margin: 0; }
   #details .pumps.right { margin-top: 1.8em; }
 
@@ -2973,4 +2988,13 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   .single-post-gallery.gallery-columns-9 A {
     width: 100%;
   }
+}
+
+@media only screen and (max-width: 400px) {
+  #menu { width: calc(100% - 150px); }
+  #show-menu:checked + #menu-toggle + #menu { left: 150px; }
+}
+
+@media only screen and (max-width: 370px) {
+  #menu-tagline DIV { display: block; height: 0.25em; }
 }

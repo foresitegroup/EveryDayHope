@@ -30,6 +30,14 @@
         $(".swipebox-video").swipebox({ autoplayVideos: true, videoMaxWidth : 1202 });
         $(".sb, .single-post-gallery A").swipebox();
       });
+
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 35) {
+          $('#menu-toggle, #menu').addClass('scroll-menu');
+        } else {
+          $('#menu-toggle, #menu').removeClass('scroll-menu');
+        }
+      });
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -90,7 +98,7 @@
           <a href="#" class="social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
 
-        <div id="menu-tagline">For People. For Good.</div>
+        <div id="menu-tagline">For People.<div> </div> For Good.</div>
       </div>
 
       <div class="site-width">

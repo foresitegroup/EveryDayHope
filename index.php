@@ -1,13 +1,13 @@
 <?php include "header.php"; ?>
 
 <?php function HeaderContent() { ?>
-  <div id="header-header">For People. For Good.</div>
+  <div id="header-header">For People.<div> </div>For Good.</div>
 
   With a driving passion, we build <u>sustainable communities</u>, raise the standard of living and bring hope to the people of the Dominican Republic.
 
   <div id="header-links">
-    <a href="https://vimeo.com/219036131" class="swipebox-video button green">Play Video <i class="fa fa-play" aria-hidden="true"></i></a>
-    <a href="get-involved.php">+ Give Now</a>
+    <a href="https://www.youtube.com/watch?v=7k75bNuOQuo" class="swipebox-video">Play Video <i class="fa fa-play" aria-hidden="true"></i></a>
+    <a href="get-involved.php" class="button green">+ Give Now</a>
   </div>
 <?php } ?>
 

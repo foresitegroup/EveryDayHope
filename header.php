@@ -66,7 +66,7 @@
     if (isset($BlogHeaderImage)) $HeadImg = " style=\"background-image: url(" . $BlogHeaderImage . ");\"";
     ?>
 
-    <div id="header"<?php echo $HeadImg; ?>>
+    <div id="header"<?php echo $HeadImg; if (!isset($PageTitle)) echo ' class="video-header"' ?>>
       <?php if (!isset($PageTitle)) { ?>
       <video playsinline autoplay muted loop poster="images/home-banner.jpg">
         <source src="images/home-banner.mp4" type="video/mp4">

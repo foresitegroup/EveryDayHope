@@ -4,4 +4,4 @@ progress/*
 progress/wp-content/*
 !progress/wp-content/themes/
 progress/wp-content/themes/*
-!progress/wp-content/themes/everydayhope
+!progress/wp-content/themes/everydayhope/

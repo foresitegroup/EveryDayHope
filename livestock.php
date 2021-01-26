@@ -41,10 +41,10 @@ function HeaderContent() { ?>
   <div class="image2" style="background-image: url(images/livestock-overview2.jpg);"></div>
 </div>
 
-<div id="details-header">Livestock for Life</div>
+<div id="details-header"><div class="site-width">Livestock for Life</div></div>
 
-<div id="details">
-  <div class="images cf">
+<div id="details" class="notabs">
+  <div class="images">
     <div class="image1" style="background-image: url(images/livestock-details1.jpg);"></div>
     <div class="image2" style="background-image: url(images/livestock-details2.jpg);"></div>
   </div>
@@ -58,6 +58,7 @@ function HeaderContent() { ?>
       <br>
 
       With your investment, we can see individuals, families and communities transformed.<br>
+      <br>
 
       <a href="#giving" class="button togiving">Give Now</a>
     </div>

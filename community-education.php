@@ -42,10 +42,10 @@ function HeaderContent() { ?>
   <div class="image2" style="background-image: url(images/education-overview2.jpg);"></div>
 </div>
 
-<div id="details-header">Workshops</div>
+<div id="details-header"><div class="site-width">Workshops</div></div>
 
-<div id="details">
-  <div class="images cf">
+<div id="details" class="notabs">
+  <div class="images">
     <div class="image1" style="background-image: url(images/education-details1.jpg);"></div>
     <div class="image2" style="background-image: url(images/education-details2.jpg);"></div>
   </div>

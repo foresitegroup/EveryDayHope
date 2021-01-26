@@ -1,10 +1,7 @@
 <?php
-global $EqualHeights;
-
 if (!is_single()) :
-  /* ALL THE OTHER PAST POSTS BESIDES THE HERO */
   ?>
-  <a href="<?php echo get_permalink(); ?>" class="index-post <?php echo $EqualHeights; ?>">
+  <a href="<?php echo get_permalink(); ?>" class="index-post">
     <div class="index-post-image" style="<?php echo (wp_get_attachment_url(get_post_thumbnail_id()) != "") ? "background-image: url(" . wp_get_attachment_url(get_post_thumbnail_id()) . ")" : "padding-top: 0; margin-bottom: 0;"; ?>"></div>
     
     <div class="index-post-text">
@@ -26,6 +23,7 @@ if (!is_single()) :
   <?php
 else :
   /* A SINGLE POST */
+  the_post();
   ?>
   <?php the_content(); ?>
 <?php endif; ?>

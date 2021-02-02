@@ -1642,7 +1642,8 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 .progress #header-text {
   width: 66%;
   font-weight: 700;
-  font-size: 20px;
+  /*font-size: 20px;*/
+  font-size: 28px;
   line-height: 1.6em;
 }
 
@@ -1664,7 +1665,8 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   margin: 0.7em 0;
   font-family: 'Droid Serif', serif;
   font-weight: bold;
-  font-size: 55px;
+  /*font-size: 55px;*/
+  font-size: 48px;
   line-height: 1.2em;
 }
 

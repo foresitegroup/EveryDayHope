@@ -1640,11 +1640,11 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 #contact-footer .site-width { position: relative; z-index: 2; }
 
 .progress #header-text {
-  width: 66%;
-  font-weight: 700;
-  /*font-size: 20px;*/
-  font-size: 28px;
-  line-height: 1.6em;
+  width: 60%;
+  box-sizing: border-box;
+  /*padding-right: 7%;*/
+  font-size: 27px;
+  line-height: 1.8em;
 }
 
 .progress #header-text .date {
@@ -1662,15 +1662,15 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 }
 
 .progress #header-text H1 {
-  margin: 0.7em 0;
+  margin: 0 0 0.75em;
   font-family: 'Droid Serif', serif;
   font-weight: bold;
-  /*font-size: 55px;*/
   font-size: 48px;
-  line-height: 1.2em;
+  line-height: 1em;
 }
 
 .progress #header-text H1.single {
+  margin-top: 0.7em;
   font-size: 70px;
   line-height: 1.1em;
 }
@@ -2459,7 +2459,8 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   #home-impact { min-height: 500px; }
 
-  .livestock #header-text { padding-right: 0; }
+  .livestock #header-text,
+  .progress #header-text { padding-right: 0; }
 
   #overview .text { padding: 100px 0 100px 1%; }
 
@@ -2498,18 +2499,16 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   #our-progress .right .icon { width: 8vw; left: 4%; }
 
-  .livestock #header-text { width: 75%; }
+  .livestock #header-text,
+  .progress #header-text,
+  .get-involved #header-text { width: 75%; }
 
   #giving-header .left { font-size: 5vw; }
   #giving-header .left .icon { top: 50%; transform: translateY(-110%); width: 7vw; }
 
   .giving .donate { width: 45%; }
 
-  .progress #header-text { width: 80%; }
-
   .progress .categories .cats A { margin-right: 1em; }
-
-  .get-involved #header-text { width: 75%; }
 
   .get-involved #safewater-header:after,
   .get-involved #livestock-header:after { padding-top: 40%; }
@@ -2550,12 +2549,10 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   .about #header-text { width: 75%; }
 
-  .livestock #header-text { width: 85%; }
+  .livestock #header-text,
+  .progress #header-text { width: 85%; }
 
-  #overview .text {
-    width: 70%;
-    padding-left: 0;
-  }
+  #overview .text { width: 70%; padding-left: 0; }
   
   #overview .icon { top: 100px; left: auto; right: 2%; }
   #overview .image1 { width: 30%; bottom: 30%; }
@@ -2634,6 +2631,7 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   #header-text,
   .about #header-text,
   .livestock #header-text,
+  .progress #header-text,
   .contact #header-text { width: 96%; font-size: 4vw; }
 
   #header-links .swipebox-video { margin-right: 4vw; }
@@ -2778,8 +2776,6 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
   .safewater .giving .donate H3 { margin-bottom: 0.5em; }
   .safewater .giving .donate A.button { position: static; margin-top: 2em; }
 
-  .progress #header-text { width: 96%; }
-
   .get-involved #header-text { font-size: 3.8vw; }
   .get-involved #header-header { font-size: 9vw; }
 
@@ -2821,11 +2817,11 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   #giving-footer { height: 300px; }
 
-  .progress #header-text { font-size: 3.3vw; }
-  .progress #header-text .date { font-size: 70%; }
-  .progress #header-text H1 { font-size: 7vw; }
+  /*.progress #header-text { font-size: 3.3vw; }*/
+  /*.progress #header-text .date { font-size: 70%; }*/
+  /*.progress #header-text H1 { font-size: 7vw; }*/
   .progress #header-text H1.single { font-size: 12vw; }
-  .progress #header-text .button { margin-top: 10vw; }
+  /*.progress #header-text .button { margin-top: 10vw; }*/
 
   .index-post:link, .index-post:visited { width: 100%; }
 }
@@ -2853,10 +2849,10 @@ A.button.green:hover, A.button.green:active { background: #0F346C; color: #55BA4
 
   #header { min-height: 600px; }
 
-  #header-text, .livestock #header-text { font-size: 5vw; }
+  #header-text, .livestock #header-text, .progress #header-text { font-size: 5vw; }
   .about #header-text { font-size: 4.6vw; line-height: 1.4em; }
 
-  #header-header { margin-bottom: .4em; }
+  #header-header, .progress #header-text H1 { margin-bottom: .4em; }
   .about #header-header { font-size: 220%; margin-bottom: 0.5em; }
   
   #header-links { margin-top: 25px; display: flex; flex-direction: column; align-items: flex-start; }

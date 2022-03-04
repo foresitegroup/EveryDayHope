@@ -37,6 +37,10 @@
           <a href="https://www.instagram.com/everydayhopedr/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
       </div>
+
+      <div style="text-align: center; padding-top: 2em; font-weight: 400;">
+        <a href="https://foresitegrp.com" style="font-size: 0.6875rem; color: #FFFFFF;">WEBSITE BY FORESITE</a>
+      </div>
     </div>
 
   </body>

@@ -76,7 +76,7 @@ if (!is_single()) :
   </div>
 <?php endif; ?>
 
-<?php $MicroImage = (is_single()) ? "micro-blog-single.jpg" : "micro-blog-index2.jpg"; ?>
+<?php $MicroImage = (is_single()) ? "micro-blog-single.jpg" : "micro-blog-single.jpg"; ?>
 <div id="micro-footer" style="background-image: url(<?php echo $TopDir . "images/" . $MicroImage; ?>);">
   <div class="site-width">
     Interested in leading a workshop?<br>

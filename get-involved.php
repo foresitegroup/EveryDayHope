@@ -68,7 +68,7 @@ function HeaderContent() { ?>
 </div>
 
 <div id="livestock-header">
-  <img src="images/icon-livestock-white.png" class="icon">
+  <!-- <img src="images/icon-livestock-white.png" class="icon"> -->
 </div>
 
 <div class="giving">
@@ -80,9 +80,7 @@ function HeaderContent() { ?>
     <br>
     
     <div class="donate-full">
-      <h3>Goats and Pigs</h3>
-
-      <img src="images/goats.jpg" alt=""><img src="images/pigs.jpg" alt="">
+      <img src="images/pigs.jpg" alt="">
 
       <h4>Select Donation Amount</h4>
 

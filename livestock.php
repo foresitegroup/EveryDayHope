@@ -7,7 +7,7 @@ include "header.php";
 function HeaderContent() { ?>
   <div id="header-header">Livestock for Life</div>
 
-  Every Day Hope will provide families with goats or pigs that they will raise for reproduction, consumption and/or income.
+  Every Day Hope will provide families with pigs that they will raise for reproduction, consumption and/or income.
 
   <div id="header-links">
     <a href="#giving" class="button togiving">Give Now</a>
@@ -45,13 +45,13 @@ function HeaderContent() { ?>
 
 <div id="details" class="notabs">
   <div class="images">
-    <div class="image1" style="background-image: url(images/livestock-details1.jpg);"></div>
-    <div class="image2" style="background-image: url(images/livestock-details2.jpg);"></div>
+    <div class="image1" style="background-image: url(images/livestock-for-life1.jpg);"></div>
+    <div class="image2" style="background-image: url(images/livestock-for-life2.jpg);"></div>
   </div>
 
   <div class="site-width">
     <div class="text">
-      Every Day Hope provides families with goats or pigs that they raise for reproduction, consumption and or income. The family donates the first born to Every Day Hope, which will then provide another family with livestock. This act transforms  recipients into donors while producing a profound sense of accomplishment and dignity. The program is designed to multiply in order to keep on giving. It transforms families into participants in the growth and strengthening of their community.<br>
+      Every Day Hope provides families with pigs that they raise for reproduction, consumption and or income. The family donates the first born to Every Day Hope, which will then provide another family with livestock. This act transforms  recipients into donors while producing a profound sense of accomplishment and dignity. The program is designed to multiply in order to keep on giving. It transforms families into participants in the growth and strengthening of their community.<br>
       <br>
 
       Entering the Livestock for Life program begins with the individual completing an application process to demonstrate their strategy and ability to raise the given livestock on their property. There is also a mandatory set of workshops on the subject of animal care and husbandry. Every Day Hope is empowering families to make a living for themselves and to be a blessing to other community members.<br>
@@ -86,9 +86,7 @@ function HeaderContent() { ?>
     <br>
     
     <div class="donate-full">
-      <h3>Goats and Pigs</h3>
-
-      <img src="images/goats.jpg" alt=""><img src="images/pigs.jpg" alt="">
+      <img src="images/pigs.jpg" alt="">
 
       <h4>Select Donation Amount</h4>
 

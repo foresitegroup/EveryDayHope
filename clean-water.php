@@ -14,7 +14,7 @@ function HeaderContent() { ?>
       </div>
     </div>
   </div>
-  
+
   <div id="header-flex-bottom">
     Our programs allow for people to build and grow their communities away from poverty through safe water systems and education on health &amp; hygiene.
 
@@ -76,27 +76,21 @@ function HeaderContent() { ?>
       <div class="text">
         <h2>Every Day Hope Water Stations</h2>
 
-        Clean running water is not available to all of the Dominican Republic's population. Rural communities face the most challenges, as many people obtain their water from sources that are unprotected and contaminated. Others must use contaminated canal water or rain water collected from contaminated rooftop systems which are often without water during the dry season. Utilizing contaminated water for domestic use, leads to disease. Disease leads to loss of time, money, work and quality of life.<br>
+        Clean running water is not available to all of the Dominican Republic's population. Rural communities face the most challenges, as many people obtain their water from sources that are unprotected and contaminated. Others must use contaminated canal water or rain water collected from contaminated rooftop systems which are often without water during the dry season. Utilizing contaminated water for domestic use, leads to disease. Disease leads to loss of time, money, work and quality of life.<br>
         <br>
 
-        Every Day Hope believes that clean water changes lives. To bring hope to this situation, EDH is collaborating with international partners, local organizations and communities to drill safe wells and build water stations. The water stations implements either a hand pump or electric pump depending on the community's demographics and daily water usage.<br>
+        Every Day Hope believes that clean water changes lives. To bring hope to this situation, EDH is collaborating with international partners, local organizations and communities to drill safe wells and construct water stations.<br>
         <br>
 
         In addition to installing the pumps, Every Day Hope establishes community cooperatives. The cooperatives consist of a council of people who live in the community and oversee, direct, and manage the water stations in their area. The cooperatives are also educated on proper usage, regulations, and the maintenance of the pumps. These cooperatives help raise funds and collect a minimal monthly usage fee from the community members in order to maintain the wells for generations. This promotes sustainability and a positive approach to being the change. But they need our help to begin.<br>
         <br>
 
-        There are two types of Clean Water Stations that bring clean (non potable water) to communities. The relative costs are as follows:<br>
+        The cost for a well and subsequent water stations vary depending on the demographics, location, and equipment needs of the project. The relative cost is as follows:<br>
         <br>
 
-        <div class="pumps">
-          <div>Well Drilling, Reserve Tanks and Automated Electric Pump with Distribution Centers</div>
-          $10,000-$25,000
-        </div>
-
-        <div class="pumps right">
-          <div>Well Drilling and Hand Pump Station</div>
-          $3,000-$5,000
-        </div>
+        <div style="font-weight: 800; line-height: 1.3;">Well Drilling, Reserve Tanks, Automated Electric Pump, Pump House with Distribution Center</div>
+        $25,000-$35,000<br>
+        <br>
 
         <a href="#giving" class="button togiving">Give Now</a>
       </div> <!-- /.text -->
@@ -107,7 +101,7 @@ function HeaderContent() { ?>
       <div style="background-image: url(images/cleanwater-details2.jpg);"></div>
     </div> <!-- /.images -->
   </div> <!-- /#tab1 -->
-  
+
   <div id="tab2" class="tab-content">
     <div class="site-width">
       <div class="text">

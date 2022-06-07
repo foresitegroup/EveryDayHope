@@ -40,14 +40,22 @@
       });
     </script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics [This will stop working 7/1/23] -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118989690-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-118989690-1');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6S7R2X8ZWD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6S7R2X8ZWD');
     </script>
   </head>
   <body<?php if (isset($PageClass)) echo " class=\"" . $PageClass . "\""; ?>>

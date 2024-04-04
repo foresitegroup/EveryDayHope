@@ -5,3 +5,4 @@ progress/wp-content/*
 !progress/wp-content/themes/
 progress/wp-content/themes/*
 !progress/wp-content/themes/everydayhope/
+.DS_Store
